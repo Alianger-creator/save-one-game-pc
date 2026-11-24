@@ -47,7 +47,6 @@ Ghostbusters|Activision|Action|Commodore 64|Ghostbusters (1984 video game)
 Seven Cities of Gold|Ozark Softscape|Strategy|Atari 8-bit / C64|The Seven Cities of Gold (video game)
 The Lords of Midnight|Mike Singleton|Strategy|ZX Spectrum|The Lords of Midnight
 Pitstop II|Epyx|Racing|Commodore 64 / Atari 8-bit|Pitstop II
-Sopwith|BMB Compuscience|Shooter|IBM PC|Sopwith (video game)
 The Ancient Art of War|Evryware|Strategy|IBM PC / Apple II|The Ancient Art of War
 Montezuma's Revenge|Utopia Software|Platformer|Atari 8-bit|Montezuma's Revenge (video game)
 Sorcerer|Infocom|Text adventure|Apple II / IBM PC|Sorcerer (video game)
@@ -390,15 +389,15 @@ The Sims 2|Maxis|Life sim||The Sims 2
 RollerCoaster Tycoon 3|Frontier Developments|Business sim||RollerCoaster Tycoon 3|file:RCT3-cover_art.jpg
 Doom 3|id Software|FPS||Doom 3
 Ground Control II: Operation Exodus|Massive Entertainment|RTS||Ground Control II: Operation Exodus
-OpenTTD|OpenTTD team|Business sim|Windows / Mac / Linux|OpenTTD
+Star Wars Knights of the Old Republic II: The Sith Lords|Obsidian Entertainment|RPG||Star Wars Knights of the Old Republic II: The Sith Lords
 Vampire: The Masquerade – Bloodlines|Troika Games|RPG||Vampire: The Masquerade – Bloodlines
 Thief: Deadly Shadows|Ion Storm|Stealth||Thief: Deadly Shadows
 Rome: Total War|Creative Assembly|Strategy||Rome: Total War
 Warhammer 40,000: Dawn of War|Relic Entertainment|RTS||Warhammer 40,000: Dawn of War
 Unreal Tournament 2004|Epic Games|Arena FPS||Unreal Tournament 2004
 Painkiller|People Can Fly|FPS||Painkiller (video game)
-Battlefield Vietnam|Digital Illusions Canada|FPS||Battlefield Vietnam
-Sacred|Ascaron|Action RPG||Sacred (video game)
+Grand Theft Auto: San Andreas|Rockstar North|Action adventure||Grand Theft Auto: San Andreas
+Sid Meier's Pirates!|Firaxis Games|Action strategy||Sid Meier's Pirates! (2004 video game)
 Evil Genius|Elixir Studios|Strategy||Evil Genius (video game)
 City of Heroes|Cryptic Studios|MMORPG||City of Heroes
 EverQuest II|Sony Online Entertainment|MMORPG||EverQuest II
@@ -420,9 +419,9 @@ Black & White 2|Lionhead Studios|God game||Black & White 2
 SWAT 4|Irrational Games|Tactical shooter||SWAT 4
 Hearts of Iron II|Paradox Interactive|Grand strategy||Hearts of Iron II
 Act of War: Direct Action|Eugen Systems|RTS||Act of War: Direct Action
-Serious Sam 2|Croteam|FPS||Serious Sam 2
+Need for Speed: Most Wanted|EA Black Box|Racing||Need for Speed: Most Wanted (2005 video game)
 TrackMania Sunrise|Nadeo|Racing||TrackMania Sunrise
-Earth 2160|Reality Pump|RTS||Earth 2160
+Tom Clancy's Splinter Cell: Chaos Theory|Ubisoft Montreal|Stealth||Tom Clancy's Splinter Cell: Chaos Theory
 @2006
 The Elder Scrolls IV: Oblivion|Bethesda Game Studios|RPG||The Elder Scrolls IV: Oblivion
 Half-Life 2: Episode One|Valve|FPS||Half-Life 2: Episode One
@@ -443,7 +442,7 @@ ArmA: Armed Assault|Bohemia Interactive|Military sim||ARMA: Armed Assault
 Rise of Nations: Rise of Legends|Big Huge Games|RTS||Rise of Nations: Rise of Legends
 Sid Meier's Railroads!|Firaxis Games|Business sim||Sid Meier's Railroads!
 Garry's Mod|Facepunch Studios|Sandbox||Garry's Mod
-SiN Episodes: Emergence|Ritual Entertainment|FPS||SiN Episodes: Emergence
+GTR 2 – FIA GT Racing Game|SimBin / Blimey! Games|Racing sim||GTR 2 – FIA GT Racing Game
 @2007
 Portal|Valve|Puzzle||Portal (video game)
 Team Fortress 2|Valve|FPS||Team Fortress 2
@@ -484,7 +483,7 @@ TrackMania United Forever|Nadeo|Racing||TrackMania United Forever
 Defense Grid: The Awakening|Hidden Path Entertainment|Tower defense||Defense Grid: The Awakening
 Penumbra: Black Plague|Frictional Games|Horror||Penumbra: Black Plague
 Command & Conquer: Red Alert 3|EA Los Angeles|RTS||Command & Conquer: Red Alert 3
-Sacred 2: Fallen Angel|Ascaron|Action RPG||Sacred 2: Fallen Angel
+Grand Theft Auto IV|Rockstar North|Action adventure||Grand Theft Auto IV
 Civilization IV: Colonization|Firaxis Games|4X strategy||Civilization IV: Colonization
 @2009
 Dragon Age: Origins|BioWare|RPG||Dragon Age: Origins
@@ -582,11 +581,11 @@ Tomb Raider|Crystal Dynamics|Action adventure||Tomb Raider (2013 video game)
 Metro: Last Light|4A Games|FPS||Metro: Last Light
 Total War: Rome II|Creative Assembly|Strategy||Total War: Rome II
 Path of Exile|Grinding Gear Games|Action RPG||Path of Exile
-Shadowrun Returns|Harebrained Schemes|Tactics||Shadowrun Returns
+Grand Theft Auto V|Rockstar North|Action adventure||Grand Theft Auto V
 Antichamber|Alexander Bruce|Puzzle||Antichamber
 Risk of Rain|Hopoo Games|Roguelike||Risk of Rain (video game)
 The Swapper|Facepalm Games|Puzzle platformer||The Swapper
-Gunpoint|Suspicious Developments|Stealth puzzle||Gunpoint (video game)
+Europa Universalis IV|Paradox Development Studio|Grand strategy||Europa Universalis IV
 Saints Row IV|Volition|Action||Saints Row IV
 Outlast|Red Barrels|Horror||Outlast (video game)
 Arma 3|Bohemia Interactive|Military sim||Arma 3

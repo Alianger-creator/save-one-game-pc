@@ -42,7 +42,7 @@ To force a specific image, set the last field to `file:` plus the Wikipedia file
 Jagged Alliance|Madlab Software|Tactics|MS-DOS|Jagged Alliance (video game)|file:Jagged_Alliance_cover.png
 ```
 
-or to `url:` plus a direct image link. Then run `python3 source/build.py` from the repo root and upload the new `public/index.html`. 
+or to `url:` plus a direct image link. Then run `python3 source/build.py` from the repo root and upload the new `public/index.html`. You can also just send the links to Claude.
 
 ## How the counting works
 
