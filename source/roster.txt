@@ -1,22 +1,19 @@
 # Format: Title|Developer|Genre|Platform|Wikipedia article (optional)|Cover override (optional: file:Name or url:...)
-# Rule: games that launched on a PC / home computer, listed by original (full) release year.
+# Rule: listed by original (full) release year; every game must have had an official IBM PC compatible release (PC booter, DOS or Windows) at some point.
 @1980
 Zork I|Infocom|Text adventure|TRS-80 / PDP-11|Zork I
 Rogue|Toy & Wiseman|Roguelike|Unix|Rogue (video game)
-Mystery House|On-Line Systems|Adventure|Apple II|Mystery House
 Akalabeth: World of Doom|Richard Garriott|RPG|Apple II|Akalabeth: World of Doom
 Wizard and the Princess|On-Line Systems|Adventure|Apple II|Wizard and the Princess
-Hellfire Warrior|Automated Simulations|RPG|Apple II / TRS-80|Hellfire Warrior
+Olympic Decathlon|Microsoft|Sports|TRS-80|Olympic Decathlon
 @1981
 Wizardry: Proving Grounds of the Mad Overlord|Sir-Tech|RPG|Apple II|Wizardry: Proving Grounds of the Mad Overlord
 Ultima I: The First Age of Darkness|Richard Garriott|RPG|Apple II|Ultima I: The First Age of Darkness
 Castle Wolfenstein|Muse Software|Stealth|Apple II|Castle Wolfenstein
 Zork II|Infocom|Text adventure|TRS-80 / PDP-11|Zork II|url:https://cdn.mobygames.com/covers/17604320-zork-ii-the-wizard-of-frobozz-dos-front-cover.jpg
-Eastern Front (1941)|Chris Crawford|Wargame|Atari 8-bit|Eastern Front (1941)
-3D Monster Maze|Malcolm Evans|Maze|ZX81|3D Monster Maze
-Raster Blaster|Bill Budge|Pinball|Apple II|Raster Blaster
+Apple Panic|Ben Serki|Platformer|Apple II|Apple Panic
+Ulysses and the Golden Fleece|On-Line Systems|Adventure|Apple II|Ulysses and the Golden Fleece
 @1982
-Choplifter|Dan Gorlin|Action|Apple II|Choplifter
 Ultima II: The Revenge of the Enchantress|Richard Garriott|RPG|Apple II|Ultima II: The Revenge of the Enchantress
 Zork III|Infocom|Text adventure|Apple II / TRS-80|Zork III|url:https://cdn.mobygames.com/covers/19403194-zork-iii-the-dungeon-master-pc-booter-front-cover.jpg
 Deadline|Infocom|Text adventure|Apple II / IBM PC|Deadline (video game)
@@ -25,6 +22,7 @@ The Hobbit|Beam Software|Text adventure|ZX Spectrum|The Hobbit (1982 video game)
 Miner 2049er|Big Five Software|Platformer|Atari 8-bit|Miner 2049er
 Shamus|Synapse Software|Action|Atari 8-bit|Shamus (video game)
 Wizardry II: The Knight of Diamonds|Sir-Tech|RPG|Apple II|Wizardry II: The Knight of Diamonds
+Starcross|Infocom|Text adventure|Apple II / IBM PC|Starcross (video game)
 @1983
 Lode Runner|Doug Smith|Puzzle platformer|Apple II|Lode Runner
 Archon: The Light and the Dark|Free Fall Associates|Strategy|Atari 8-bit|Archon: The Light and the Dark
@@ -32,52 +30,50 @@ M.U.L.E.|Ozark Softscape|Strategy|Atari 8-bit|M.U.L.E.
 Planetfall|Infocom|Text adventure|Apple II / IBM PC|Planetfall
 Enchanter|Infocom|Text adventure|Apple II / IBM PC|Enchanter (video game)
 Ultima III: Exodus|Origin Systems|RPG|Apple II|Ultima III: Exodus
-Manic Miner|Matthew Smith|Platformer|ZX Spectrum|Manic Miner
 Jumpman|Epyx|Platformer|Atari 8-bit / C64|Jumpman (video game)
 Pinball Construction Set|Bill Budge|Pinball|Apple II|Pinball Construction Set
-Spelunker|MicroGraphic Image|Platformer|Atari 8-bit|Spelunker (video game)
-Atic Atac|Ultimate Play the Game|Action adventure|ZX Spectrum|Atic Atac
-Ant Attack|Sandy White|Action|ZX Spectrum|Ant Attack
-Beach-Head|Access Software|Action|Commodore 64|Beach-Head
+Digger|Windmill Software|Maze|IBM PC|Digger (video game)
+Infidel|Infocom|Text adventure|Apple II / IBM PC|Infidel (video game)
+Witness|Infocom|Text adventure|Apple II / IBM PC|The Witness (1983 video game)
+Alley Cat|Bill Williams|Action|Atari 8-bit|Alley Cat (video game)
 @1984
 Elite|Bell & Braben|Space sim|BBC Micro|Elite (video game)
 King's Quest|Sierra On-Line|Adventure|IBM PCjr|King's Quest I
 Tetris|Alexey Pajitnov|Puzzle|Electronika 60|Tetris
 Karateka|Jordan Mechner|Fighting|Apple II|Karateka (1984 video game)
-Impossible Mission|Epyx|Platformer|Commodore 64|Impossible Mission
-Jet Set Willy|Software Projects|Platformer|ZX Spectrum|Jet Set Willy
 Boulder Dash|First Star Software|Puzzle|Atari 8-bit|Boulder Dash (video game)
 The Hitchhiker's Guide to the Galaxy|Infocom|Text adventure|Apple II / IBM PC|The Hitchhiker's Guide to the Galaxy (video game)
-Knight Lore|Ultimate Play the Game|Action adventure|ZX Spectrum|Knight Lore
-Sabre Wulf|Ultimate Play the Game|Action adventure|ZX Spectrum|Sabre Wulf
-Summer Games|Epyx|Sports|Commodore 64|Summer Games (video game)
 Ghostbusters|Activision|Action|Commodore 64|Ghostbusters (1984 video game)
 Seven Cities of Gold|Ozark Softscape|Strategy|Atari 8-bit / C64|The Seven Cities of Gold (video game)
 The Lords of Midnight|Mike Singleton|Strategy|ZX Spectrum|The Lords of Midnight
 Pitstop II|Epyx|Racing|Commodore 64 / Atari 8-bit|Pitstop II
+Sopwith|BMB Compuscience|Shooter|IBM PC|Sopwith (video game)
+The Ancient Art of War|Evryware|Strategy|IBM PC / Apple II|The Ancient Art of War
+Montezuma's Revenge|Utopia Software|Platformer|Atari 8-bit|Montezuma's Revenge (video game)
+Sorcerer|Infocom|Text adventure|Apple II / IBM PC|Sorcerer (video game)
+Below the Root|Dale Disharoon|Action adventure|Commodore 64 / Apple II|Below the Root (video game)
 @1985
 Ultima IV: Quest of the Avatar|Origin Systems|RPG|Apple II|Ultima IV: Quest of the Avatar
 The Bard's Tale|Interplay|RPG|Commodore 64|The Bard's Tale (1985 video game)
 Déjà Vu: A Nightmare Comes True|ICOM Simulations|Adventure|Macintosh|Déjà Vu (video game)|file:Deja_Vu_cover.png
-Paradroid|Graftgold|Shooter|Commodore 64|Paradroid
-Little Computer People|Activision|Life sim|Commodore 64|Little Computer People
 Winter Games|Epyx|Sports|Commodore 64|Winter Games
-Mercenary|Novagen|Action adventure|Atari 8-bit / C64|Mercenary (video game)
 Silent Service|MicroProse|Naval sim|Commodore 64|Silent Service (video game)
 King's Quest II: Romancing the Throne|Sierra On-Line|Adventure|IBM PC|King's Quest II
 Where in the World Is Carmen Sandiego?|Brøderbund|Edutainment|Apple II|Where in the World Is Carmen Sandiego? (1985 video game)
 Wishbringer|Infocom|Text adventure|Apple II / IBM PC|Wishbringer
 A Mind Forever Voyaging|Infocom|Text adventure|IBM PC / Amiga|A Mind Forever Voyaging
-The Way of the Exploding Fist|Beam Software|Fighting|Commodore 64|The Way of the Exploding Fist
 Hacker|Activision|Puzzle|Commodore 64|Hacker (video game)
 Phantasie|SSI|RPG|Apple II|Phantasie
+Balance of Power|Chris Crawford|Strategy|Macintosh|Balance of Power (video game)
+Thexder|Game Arts|Run and gun|PC-88|Thexder
+Spellbreaker|Infocom|Text adventure|IBM PC / Apple II|Spellbreaker
+Wizard's Crown|SSI|RPG|Apple II / Atari 8-bit|Wizard's Crown
 @1986
 Space Quest: The Sarien Encounter|Sierra On-Line|Adventure|MS-DOS|Space Quest: Chapter I – The Sarien Encounter
 King's Quest III: To Heir Is Human|Sierra On-Line|Adventure|MS-DOS|King's Quest III
 World Games|Epyx|Sports|Commodore 64|World Games (video game)|file:World_Games_cover.jpg
 Starglider|Argonaut Software|Space combat|Atari ST|Starglider
 Defender of the Crown|Cinemaware|Strategy|Amiga|Defender of the Crown
-Uridium|Graftgold|Shooter|Commodore 64|Uridium
 Gunship|MicroProse|Flight sim|Commodore 64|Gunship (video game)
 Leather Goddesses of Phobos|Infocom|Text adventure|MS-DOS / Amiga|Leather Goddesses of Phobos
 Trinity|Infocom|Text adventure|MS-DOS / Amiga|Trinity (video game)
@@ -86,7 +82,8 @@ Might and Magic Book One|New World Computing|RPG|Apple II|Might and Magic Book O
 Starflight|Binary Systems|Space RPG|MS-DOS|Starflight
 The Sentinel|Geoff Crammond|Strategy|BBC Micro|The Sentinel (video game)
 Alter Ego|Activision|Life sim|Commodore 64|Alter Ego (1986 video game)
-Spindizzy|Electric Dreams|Puzzle|Amstrad CPC / ZX Spectrum|Spindizzy
+Dark Castle|Silicon Beach Software|Platformer|Macintosh|Dark Castle
+Mean 18|Accolade|Sports|IBM PC|Mean 18
 @1987
 Leisure Suit Larry in the Land of the Lounge Lizards|Sierra On-Line|Adventure|MS-DOS|Leisure Suit Larry in the Land of the Lounge Lizards
 Maniac Mansion|Lucasfilm Games|Adventure|Commodore 64|Maniac Mansion
@@ -94,15 +91,15 @@ Dungeon Master|FTL Games|RPG|Atari ST|Dungeon Master (video game)
 Sid Meier's Pirates!|MicroProse|Action strategy|Commodore 64|Sid Meier's Pirates!
 Police Quest: In Pursuit of the Death Angel|Sierra On-Line|Adventure|MS-DOS|Police Quest: In Pursuit of the Death Angel
 Space Quest II: Vohaul's Revenge|Sierra On-Line|Adventure|MS-DOS|Space Quest II
-Wizball|Sensible Software|Shooter|Commodore 64|Wizball
-The Great Giana Sisters|Time Warp Software|Platformer|Commodore 64|The Great Giana Sisters
-Head over Heels|Ocean Software|Action adventure|ZX Spectrum|Head Over Heels (video game)
 Shadowgate|ICOM Simulations|Adventure|Macintosh|Shadowgate
 The Last Ninja|System 3|Action adventure|Commodore 64|The Last Ninja
 Barbarian: The Ultimate Warrior|Palace Software|Fighting|Commodore 64|Barbarian: The Ultimate Warrior
 Test Drive|Distinctive Software|Racing|Amiga / MS-DOS|Test Drive (1987 video game)
 The Faery Tale Adventure|MicroIllusions|Action RPG|Amiga|The Faery Tale Adventure
 Ys I: Ancient Ys Vanished|Nihon Falcom|Action RPG|PC-88|Ys I: Ancient Ys Vanished
+California Games|Epyx|Sports|Commodore 64 / Apple II|California Games
+Beyond Zork|Infocom|Text adventure|MS-DOS / Apple II|Beyond Zork
+Ports of Call|Aegis Interactive|Business sim|Amiga|Ports of Call (video game)
 @1988
 Ultima V: Warriors of Destiny|Origin Systems|RPG|Apple II|Ultima V: Warriors of Destiny
 Wasteland|Interplay|RPG|Apple II / C64|Wasteland (video game)
@@ -118,7 +115,7 @@ Battle Chess|Interplay|Chess|Amiga|Battle Chess
 Neuromancer|Interplay|RPG|Commodore 64|Neuromancer (video game)
 Rocket Ranger|Cinemaware|Action|Amiga|Rocket Ranger
 Might and Magic II: Gates to Another World|New World Computing|RPG|Apple II|Might and Magic II: Gates to Another World
-Exile|Superior Software|Action adventure|BBC Micro|Exile (1988 video game)
+Police Quest II: The Vengeance|Sierra On-Line|Adventure|MS-DOS|Police Quest II: The Vengeance
 @1989
 SimCity|Maxis|City builder|Amiga / Mac|SimCity (1989 video game)
 Prince of Persia|Jordan Mechner|Platformer|Apple II|Prince of Persia (1989 video game)
@@ -126,7 +123,6 @@ Populous|Bullfrog|God game|Amiga|Populous (video game)
 Indiana Jones and the Last Crusade: The Graphic Adventure|Lucasfilm Games|Adventure|MS-DOS|Indiana Jones and the Last Crusade: The Graphic Adventure
 Space Quest III: The Pirates of Pestulon|Sierra On-Line|Adventure|MS-DOS|Space Quest III
 Quest for Glory: So You Want to Be a Hero|Sierra On-Line|Adventure RPG|MS-DOS|Quest for Glory: So You Want to Be a Hero
-Shadow of the Beast|Reflections|Action|Amiga|Shadow of the Beast (1989 video game)
 Curse of the Azure Bonds|SSI|RPG|MS-DOS / C64|Curse of the Azure Bonds
 Stunt Car Racer|Geoff Crammond|Racing|Amiga / Atari ST|Stunt Car Racer
 Xenon 2 Megablast|The Bitmap Brothers|Shooter|Amiga / Atari ST|Xenon 2 Megablast
@@ -146,12 +142,12 @@ Commander Keen in Invasion of the Vorticons|id Software|Platformer|MS-DOS|Comman
 King's Quest V: Absence Makes the Heart Go Yonder!|Sierra On-Line|Adventure|MS-DOS|King's Quest V
 Speedball 2: Brutal Deluxe|The Bitmap Brothers|Sports|Amiga|Speedball 2: Brutal Deluxe
 Powermonger|Bullfrog|Strategy|Amiga|Powermonger
-Turrican|Factor 5|Run and gun|Commodore 64 / Amiga|Turrican (video game)
 SimEarth|Maxis|Simulation|MS-DOS / Mac|SimEarth
 Champions of Krynn|SSI|RPG|MS-DOS|Champions of Krynn
 Quest for Glory II: Trial by Fire|Sierra On-Line|Adventure RPG|MS-DOS|Quest for Glory II: Trial by Fire
 Sid Meier's Covert Action|MicroProse|Espionage|MS-DOS|Sid Meier's Covert Action
 Kick Off 2|Anco Software|Sports|Amiga / Atari ST|Kick Off 2 (1990 video game)|url:https://cdn.mobygames.com/covers/30782462-kick-off-2-amiga-front-cover.jpg
+Rise of the Dragon|Dynamix|Adventure|MS-DOS|Rise of the Dragon
 @1991
 Sid Meier's Civilization|MicroProse|4X strategy|MS-DOS|Civilization (video game)
 Monkey Island 2: LeChuck's Revenge|LucasArts|Adventure|MS-DOS|Monkey Island 2: LeChuck's Revenge
