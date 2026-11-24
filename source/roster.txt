@@ -1,0 +1,849 @@
+# Format: Title|Developer|Genre|Platform|Wikipedia article (optional)|Cover override (optional: file:Name or url:...)
+# Rule: games that launched on a PC / home computer, listed by original (full) release year.
+@1980
+Zork I|Infocom|Text adventure|TRS-80 / PDP-11|Zork I
+Rogue|Toy & Wiseman|Roguelike|Unix|Rogue (video game)
+Mystery House|On-Line Systems|Adventure|Apple II|Mystery House
+Akalabeth: World of Doom|Richard Garriott|RPG|Apple II|Akalabeth: World of Doom
+Wizard and the Princess|On-Line Systems|Adventure|Apple II|Wizard and the Princess
+Hellfire Warrior|Automated Simulations|RPG|Apple II / TRS-80|Hellfire Warrior
+@1981
+Wizardry: Proving Grounds of the Mad Overlord|Sir-Tech|RPG|Apple II|Wizardry: Proving Grounds of the Mad Overlord
+Ultima I: The First Age of Darkness|Richard Garriott|RPG|Apple II|Ultima I: The First Age of Darkness
+Castle Wolfenstein|Muse Software|Stealth|Apple II|Castle Wolfenstein
+Zork II|Infocom|Text adventure|TRS-80 / PDP-11|Zork II|url:https://cdn.mobygames.com/covers/17604320-zork-ii-the-wizard-of-frobozz-dos-front-cover.jpg
+Eastern Front (1941)|Chris Crawford|Wargame|Atari 8-bit|Eastern Front (1941)
+3D Monster Maze|Malcolm Evans|Maze|ZX81|3D Monster Maze
+Raster Blaster|Bill Budge|Pinball|Apple II|Raster Blaster
+@1982
+Choplifter|Dan Gorlin|Action|Apple II|Choplifter
+Ultima II: The Revenge of the Enchantress|Richard Garriott|RPG|Apple II|Ultima II: The Revenge of the Enchantress
+Zork III|Infocom|Text adventure|Apple II / TRS-80|Zork III|url:https://cdn.mobygames.com/covers/19403194-zork-iii-the-dungeon-master-pc-booter-front-cover.jpg
+Deadline|Infocom|Text adventure|Apple II / IBM PC|Deadline (video game)
+Microsoft Flight Simulator 1.0|subLOGIC|Flight sim|IBM PC|Microsoft Flight Simulator 1.0
+The Hobbit|Beam Software|Text adventure|ZX Spectrum|The Hobbit (1982 video game)
+Miner 2049er|Big Five Software|Platformer|Atari 8-bit|Miner 2049er
+Shamus|Synapse Software|Action|Atari 8-bit|Shamus (video game)
+Wizardry II: The Knight of Diamonds|Sir-Tech|RPG|Apple II|Wizardry II: The Knight of Diamonds
+@1983
+Lode Runner|Doug Smith|Puzzle platformer|Apple II|Lode Runner
+Archon: The Light and the Dark|Free Fall Associates|Strategy|Atari 8-bit|Archon: The Light and the Dark
+M.U.L.E.|Ozark Softscape|Strategy|Atari 8-bit|M.U.L.E.
+Planetfall|Infocom|Text adventure|Apple II / IBM PC|Planetfall
+Enchanter|Infocom|Text adventure|Apple II / IBM PC|Enchanter (video game)
+Ultima III: Exodus|Origin Systems|RPG|Apple II|Ultima III: Exodus
+Manic Miner|Matthew Smith|Platformer|ZX Spectrum|Manic Miner
+Jumpman|Epyx|Platformer|Atari 8-bit / C64|Jumpman (video game)
+Pinball Construction Set|Bill Budge|Pinball|Apple II|Pinball Construction Set
+Spelunker|MicroGraphic Image|Platformer|Atari 8-bit|Spelunker (video game)
+Atic Atac|Ultimate Play the Game|Action adventure|ZX Spectrum|Atic Atac
+Ant Attack|Sandy White|Action|ZX Spectrum|Ant Attack
+Beach-Head|Access Software|Action|Commodore 64|Beach-Head
+@1984
+Elite|Bell & Braben|Space sim|BBC Micro|Elite (video game)
+King's Quest|Sierra On-Line|Adventure|IBM PCjr|King's Quest I
+Tetris|Alexey Pajitnov|Puzzle|Electronika 60|Tetris
+Karateka|Jordan Mechner|Fighting|Apple II|Karateka (1984 video game)
+Impossible Mission|Epyx|Platformer|Commodore 64|Impossible Mission
+Jet Set Willy|Software Projects|Platformer|ZX Spectrum|Jet Set Willy
+Boulder Dash|First Star Software|Puzzle|Atari 8-bit|Boulder Dash (video game)
+The Hitchhiker's Guide to the Galaxy|Infocom|Text adventure|Apple II / IBM PC|The Hitchhiker's Guide to the Galaxy (video game)
+Knight Lore|Ultimate Play the Game|Action adventure|ZX Spectrum|Knight Lore
+Sabre Wulf|Ultimate Play the Game|Action adventure|ZX Spectrum|Sabre Wulf
+Summer Games|Epyx|Sports|Commodore 64|Summer Games (video game)
+Ghostbusters|Activision|Action|Commodore 64|Ghostbusters (1984 video game)
+Seven Cities of Gold|Ozark Softscape|Strategy|Atari 8-bit / C64|The Seven Cities of Gold (video game)
+The Lords of Midnight|Mike Singleton|Strategy|ZX Spectrum|The Lords of Midnight
+Pitstop II|Epyx|Racing|Commodore 64 / Atari 8-bit|Pitstop II
+@1985
+Ultima IV: Quest of the Avatar|Origin Systems|RPG|Apple II|Ultima IV: Quest of the Avatar
+The Bard's Tale|Interplay|RPG|Commodore 64|The Bard's Tale (1985 video game)
+Déjà Vu: A Nightmare Comes True|ICOM Simulations|Adventure|Macintosh|Déjà Vu (video game)|file:Deja_Vu_cover.png
+Paradroid|Graftgold|Shooter|Commodore 64|Paradroid
+Little Computer People|Activision|Life sim|Commodore 64|Little Computer People
+Winter Games|Epyx|Sports|Commodore 64|Winter Games
+Mercenary|Novagen|Action adventure|Atari 8-bit / C64|Mercenary (video game)
+Silent Service|MicroProse|Naval sim|Commodore 64|Silent Service (video game)
+King's Quest II: Romancing the Throne|Sierra On-Line|Adventure|IBM PC|King's Quest II
+Where in the World Is Carmen Sandiego?|Brøderbund|Edutainment|Apple II|Where in the World Is Carmen Sandiego? (1985 video game)
+Wishbringer|Infocom|Text adventure|Apple II / IBM PC|Wishbringer
+A Mind Forever Voyaging|Infocom|Text adventure|IBM PC / Amiga|A Mind Forever Voyaging
+The Way of the Exploding Fist|Beam Software|Fighting|Commodore 64|The Way of the Exploding Fist
+Hacker|Activision|Puzzle|Commodore 64|Hacker (video game)
+Phantasie|SSI|RPG|Apple II|Phantasie
+@1986
+Space Quest: The Sarien Encounter|Sierra On-Line|Adventure|MS-DOS|Space Quest: Chapter I – The Sarien Encounter
+King's Quest III: To Heir Is Human|Sierra On-Line|Adventure|MS-DOS|King's Quest III
+World Games|Epyx|Sports|Commodore 64|World Games (video game)|file:World_Games_cover.jpg
+Starglider|Argonaut Software|Space combat|Atari ST|Starglider
+Defender of the Crown|Cinemaware|Strategy|Amiga|Defender of the Crown
+Uridium|Graftgold|Shooter|Commodore 64|Uridium
+Gunship|MicroProse|Flight sim|Commodore 64|Gunship (video game)
+Leather Goddesses of Phobos|Infocom|Text adventure|MS-DOS / Amiga|Leather Goddesses of Phobos
+Trinity|Infocom|Text adventure|MS-DOS / Amiga|Trinity (video game)
+The Bard's Tale II: The Destiny Knight|Interplay|RPG|Commodore 64|The Bard's Tale II: The Destiny Knight
+Might and Magic Book One|New World Computing|RPG|Apple II|Might and Magic Book One: The Secret of the Inner Sanctum
+Starflight|Binary Systems|Space RPG|MS-DOS|Starflight
+The Sentinel|Geoff Crammond|Strategy|BBC Micro|The Sentinel (video game)
+Alter Ego|Activision|Life sim|Commodore 64|Alter Ego (1986 video game)
+Spindizzy|Electric Dreams|Puzzle|Amstrad CPC / ZX Spectrum|Spindizzy
+@1987
+Leisure Suit Larry in the Land of the Lounge Lizards|Sierra On-Line|Adventure|MS-DOS|Leisure Suit Larry in the Land of the Lounge Lizards
+Maniac Mansion|Lucasfilm Games|Adventure|Commodore 64|Maniac Mansion
+Dungeon Master|FTL Games|RPG|Atari ST|Dungeon Master (video game)
+Sid Meier's Pirates!|MicroProse|Action strategy|Commodore 64|Sid Meier's Pirates!
+Police Quest: In Pursuit of the Death Angel|Sierra On-Line|Adventure|MS-DOS|Police Quest: In Pursuit of the Death Angel
+Space Quest II: Vohaul's Revenge|Sierra On-Line|Adventure|MS-DOS|Space Quest II
+Wizball|Sensible Software|Shooter|Commodore 64|Wizball
+The Great Giana Sisters|Time Warp Software|Platformer|Commodore 64|The Great Giana Sisters
+Head over Heels|Ocean Software|Action adventure|ZX Spectrum|Head Over Heels (video game)
+Shadowgate|ICOM Simulations|Adventure|Macintosh|Shadowgate
+The Last Ninja|System 3|Action adventure|Commodore 64|The Last Ninja
+Barbarian: The Ultimate Warrior|Palace Software|Fighting|Commodore 64|Barbarian: The Ultimate Warrior
+Test Drive|Distinctive Software|Racing|Amiga / MS-DOS|Test Drive (1987 video game)
+The Faery Tale Adventure|MicroIllusions|Action RPG|Amiga|The Faery Tale Adventure
+Ys I: Ancient Ys Vanished|Nihon Falcom|Action RPG|PC-88|Ys I: Ancient Ys Vanished
+@1988
+Ultima V: Warriors of Destiny|Origin Systems|RPG|Apple II|Ultima V: Warriors of Destiny
+Wasteland|Interplay|RPG|Apple II / C64|Wasteland (video game)
+Pool of Radiance|SSI|RPG|Commodore 64|Pool of Radiance
+King's Quest IV: The Perils of Rosella|Sierra On-Line|Adventure|MS-DOS|King's Quest IV
+Zak McKracken and the Alien Mindbenders|Lucasfilm Games|Adventure|Commodore 64|Zak McKracken and the Alien Mindbenders
+The Bard's Tale III: Thief of Fate|Interplay|RPG|Apple II / C64|The Bard's Tale III: Thief of Fate
+Xenon|The Bitmap Brothers|Shooter|Atari ST / Amiga|Xenon (video game)
+Speedball|The Bitmap Brothers|Sports|Atari ST / Amiga|Speedball (video game)
+Carrier Command|Realtime Games|Strategy|Atari ST|Carrier Command
+F-19 Stealth Fighter|MicroProse|Flight sim|MS-DOS|F-19 Stealth Fighter
+Battle Chess|Interplay|Chess|Amiga|Battle Chess
+Neuromancer|Interplay|RPG|Commodore 64|Neuromancer (video game)
+Rocket Ranger|Cinemaware|Action|Amiga|Rocket Ranger
+Might and Magic II: Gates to Another World|New World Computing|RPG|Apple II|Might and Magic II: Gates to Another World
+Exile|Superior Software|Action adventure|BBC Micro|Exile (1988 video game)
+@1989
+SimCity|Maxis|City builder|Amiga / Mac|SimCity (1989 video game)
+Prince of Persia|Jordan Mechner|Platformer|Apple II|Prince of Persia (1989 video game)
+Populous|Bullfrog|God game|Amiga|Populous (video game)
+Indiana Jones and the Last Crusade: The Graphic Adventure|Lucasfilm Games|Adventure|MS-DOS|Indiana Jones and the Last Crusade: The Graphic Adventure
+Space Quest III: The Pirates of Pestulon|Sierra On-Line|Adventure|MS-DOS|Space Quest III
+Quest for Glory: So You Want to Be a Hero|Sierra On-Line|Adventure RPG|MS-DOS|Quest for Glory: So You Want to Be a Hero
+Shadow of the Beast|Reflections|Action|Amiga|Shadow of the Beast (1989 video game)
+Curse of the Azure Bonds|SSI|RPG|MS-DOS / C64|Curse of the Azure Bonds
+Stunt Car Racer|Geoff Crammond|Racing|Amiga / Atari ST|Stunt Car Racer
+Xenon 2 Megablast|The Bitmap Brothers|Shooter|Amiga / Atari ST|Xenon 2 Megablast
+Their Finest Hour: The Battle of Britain|Lucasfilm Games|Flight sim|MS-DOS|Their Finest Hour (video game)
+It Came from the Desert|Cinemaware|Action adventure|Amiga|It Came from the Desert
+The Colonel's Bequest|Sierra On-Line|Adventure|MS-DOS|The Colonel's Bequest
+Pipe Mania|The Assembly Line|Puzzle|Amiga|Pipe Mania
+Indianapolis 500: The Simulation|Papyrus|Racing|MS-DOS|Indianapolis 500: The Simulation
+Midwinter|Maelstrom Games|Strategy|Atari ST / Amiga|Midwinter (video game)
+@1990
+The Secret of Monkey Island|Lucasfilm Games|Adventure|MS-DOS|The Secret of Monkey Island
+Wing Commander|Origin Systems|Space combat|MS-DOS|Wing Commander (video game)
+Ultima VI: The False Prophet|Origin Systems|RPG|MS-DOS|Ultima VI: The False Prophet
+Loom|Lucasfilm Games|Adventure|MS-DOS|Loom (video game)
+Sid Meier's Railroad Tycoon|MicroProse|Business sim|MS-DOS|Railroad Tycoon (video game)|file:Sid_Meier's_Railroad_Tycoon.jpg
+Commander Keen in Invasion of the Vorticons|id Software|Platformer|MS-DOS|Commander Keen in Invasion of the Vorticons
+King's Quest V: Absence Makes the Heart Go Yonder!|Sierra On-Line|Adventure|MS-DOS|King's Quest V
+Speedball 2: Brutal Deluxe|The Bitmap Brothers|Sports|Amiga|Speedball 2: Brutal Deluxe
+Powermonger|Bullfrog|Strategy|Amiga|Powermonger
+Turrican|Factor 5|Run and gun|Commodore 64 / Amiga|Turrican (video game)
+SimEarth|Maxis|Simulation|MS-DOS / Mac|SimEarth
+Champions of Krynn|SSI|RPG|MS-DOS|Champions of Krynn
+Quest for Glory II: Trial by Fire|Sierra On-Line|Adventure RPG|MS-DOS|Quest for Glory II: Trial by Fire
+Sid Meier's Covert Action|MicroProse|Espionage|MS-DOS|Sid Meier's Covert Action
+Kick Off 2|Anco Software|Sports|Amiga / Atari ST|Kick Off 2 (1990 video game)|url:https://cdn.mobygames.com/covers/30782462-kick-off-2-amiga-front-cover.jpg
+@1991
+Sid Meier's Civilization|MicroProse|4X strategy|MS-DOS|Civilization (video game)
+Monkey Island 2: LeChuck's Revenge|LucasArts|Adventure|MS-DOS|Monkey Island 2: LeChuck's Revenge
+Wing Commander II: Vengeance of the Kilrathi|Origin Systems|Space combat|MS-DOS|Wing Commander II: Vengeance of the Kilrathi
+Lemmings|DMA Design|Puzzle|Amiga|Lemmings (video game)
+Eye of the Beholder|Westwood Associates|RPG|MS-DOS|Eye of the Beholder (video game)
+Worlds of Ultima: Martian Dreams|Origin Systems|RPG|MS-DOS|Worlds of Ultima: Martian Dreams
+Another World|Delphine Software|Cinematic platformer|Amiga|Another World (video game)
+Duke Nukem|Apogee Software|Platformer|MS-DOS|Duke Nukem (video game)
+Commander Keen in Goodbye, Galaxy!|id Software|Platformer|MS-DOS|Commander Keen in Goodbye, Galaxy!
+Space Quest IV: Roger Wilco and the Time Rippers|Sierra On-Line|Adventure|MS-DOS|Space Quest IV
+Formula One Grand Prix|Geoff Crammond|Racing|Amiga / Atari ST|Formula One Grand Prix (video game)
+Mega-Lo-Mania|Sensible Software|Strategy|Amiga|Mega-Lo-Mania
+Might and Magic III: Isles of Terra|New World Computing|RPG|MS-DOS|Might and Magic III: Isles of Terra
+SimAnt|Maxis|Simulation|MS-DOS / Mac|SimAnt
+Gods|The Bitmap Brothers|Platformer|Amiga / Atari ST|Gods (video game)
+@1992
+Wolfenstein 3D|id Software|FPS|MS-DOS|Wolfenstein 3D
+Alone in the Dark|Infogrames|Survival horror|MS-DOS|Alone in the Dark (1992 video game)
+Ultima Underworld: The Stygian Abyss|Blue Sky Productions|RPG|MS-DOS|Ultima Underworld: The Stygian Abyss
+Indiana Jones and the Fate of Atlantis|LucasArts|Adventure|MS-DOS|Indiana Jones and the Fate of Atlantis
+Dune|Cryo Interactive|Adventure strategy|MS-DOS / Amiga|Dune (video game)
+Dune II: The Building of a Dynasty|Westwood Studios|RTS|MS-DOS|Dune II
+Star Control II|Toys for Bob|Space adventure|MS-DOS|Star Control II
+The Legend of Kyrandia|Westwood Studios|Adventure|MS-DOS|The Legend of Kyrandia: Book One
+Ultima VII: The Black Gate|Origin Systems|RPG|MS-DOS|Ultima VII: The Black Gate
+Comanche: Maximum Overkill|NovaLogic|Flight sim|MS-DOS|Comanche: Maximum Overkill
+Darklands|MicroProse|RPG|MS-DOS|Darklands (video game)
+Sensible Soccer|Sensible Software|Sports|Amiga / Atari ST|Sensible Soccer
+Flashback|Delphine Software|Cinematic platformer|Amiga|Flashback (1992 video game)
+King's Quest VI: Heir Today, Gone Tomorrow|Sierra On-Line|Adventure|MS-DOS|King's Quest VI
+Wizardry VII: Crusaders of the Dark Savant|Sir-Tech|RPG|MS-DOS|Wizardry VII: Crusaders of the Dark Savant
+@1993
+Doom|id Software|FPS|MS-DOS|Doom (1993 video game)
+Myst|Cyan|Adventure|Macintosh|Myst
+Day of the Tentacle|LucasArts|Adventure|MS-DOS|Day of the Tentacle
+Sam & Max Hit the Road|LucasArts|Adventure|MS-DOS|Sam & Max Hit the Road
+The 7th Guest|Trilobyte|Puzzle adventure|MS-DOS|The 7th Guest
+Master of Orion|SimTex|4X strategy|MS-DOS|Master of Orion
+Star Wars: X-Wing|Totally Games|Space combat|MS-DOS|Star Wars: X-Wing (video game)
+Syndicate|Bullfrog|Tactics|Amiga / MS-DOS|Syndicate (1993 video game)
+The Incredible Machine|Dynamix|Puzzle|MS-DOS|The Incredible Machine (1993 video game)|file:Incredible_Machine_DOS_Cover.jpg
+Gabriel Knight: Sins of the Fathers|Sierra On-Line|Adventure|MS-DOS|Gabriel Knight: Sins of the Fathers
+Wing Commander: Privateer|Origin Systems|Space sim|MS-DOS|Wing Commander: Privateer
+SimCity 2000|Maxis|City builder|Mac / MS-DOS|SimCity 2000
+Frontier: Elite II|Frontier Developments|Space sim|Amiga / MS-DOS|Frontier: Elite II
+Cannon Fodder|Sensible Software|Action strategy|Amiga|Cannon Fodder (video game)
+Betrayal at Krondor|Dynamix|RPG|MS-DOS|Betrayal at Krondor
+@1994
+Warcraft: Orcs & Humans|Blizzard Entertainment|RTS|MS-DOS|Warcraft: Orcs & Humans
+X-COM: UFO Defense|Mythos Games|Tactics|MS-DOS|UFO: Enemy Unknown
+System Shock|Looking Glass|Immersive sim|MS-DOS|System Shock
+Doom II|id Software|FPS|MS-DOS|Doom II
+Star Wars: TIE Fighter|Totally Games|Space combat|MS-DOS|Star Wars: TIE Fighter
+The Elder Scrolls: Arena|Bethesda Softworks|RPG|MS-DOS|The Elder Scrolls: Arena
+Heretic|Raven Software|FPS|MS-DOS|Heretic (video game)
+Beneath a Steel Sky|Revolution Software|Adventure|MS-DOS / Amiga|Beneath a Steel Sky
+Wing Commander III: Heart of the Tiger|Origin Systems|Space combat|MS-DOS|Wing Commander III: Heart of the Tiger
+Jagged Alliance|Madlab Software|Tactics|MS-DOS|Jagged Alliance (video game)|file:Jagged_Alliance_cover.png
+Theme Park|Bullfrog|Business sim|MS-DOS / Amiga|Theme Park (video game)
+Master of Magic|SimTex|4X strategy|MS-DOS|Master of Magic
+Little Big Adventure|Adeline Software|Action adventure|MS-DOS|Little Big Adventure
+Sid Meier's Colonization|MicroProse|4X strategy|MS-DOS|Sid Meier's Colonization
+Magic Carpet|Bullfrog|Action|MS-DOS|Magic Carpet (video game)
+@1995
+Command & Conquer|Westwood Studios|RTS|MS-DOS|Command & Conquer (1995 video game)
+Warcraft II: Tides of Darkness|Blizzard Entertainment|RTS|MS-DOS|Warcraft II: Tides of Darkness
+Descent|Parallax Software|Shooter|MS-DOS|Descent (video game)
+Transport Tycoon Deluxe|Chris Sawyer|Business sim|MS-DOS|Transport Tycoon
+Full Throttle|LucasArts|Adventure|MS-DOS|Full Throttle (1995 video game)
+Star Wars: Dark Forces|LucasArts|FPS|MS-DOS|Star Wars: Dark Forces
+Heroes of Might and Magic: A Strategic Quest|New World Computing|Strategy|MS-DOS|Heroes of Might and Magic: A Strategic Quest
+Hexen: Beyond Heretic|Raven Software|FPS|MS-DOS|Hexen: Beyond Heretic
+I Have No Mouth, and I Must Scream|The Dreamers Guild|Adventure|MS-DOS|I Have No Mouth, and I Must Scream (video game)
+Phantasmagoria|Sierra On-Line|Adventure|MS-DOS / Windows|Phantasmagoria (video game)
+The Dig|LucasArts|Adventure|MS-DOS|The Dig (video game)
+Crusader: No Remorse|Origin Systems|Action|MS-DOS|Crusader: No Remorse
+Worms|Team17|Artillery|Amiga / MS-DOS|Worms (1995 video game)
+MechWarrior 2: 31st Century Combat|Activision|Mech sim|MS-DOS|MechWarrior 2: 31st Century Combat
+Tyrian|Eclipse Software|Shooter|MS-DOS|Tyrian (video game)
+Gabriel Knight 2: The Beast Within|Sierra On-Line|Adventure|MS-DOS / Windows|The Beast Within: A Gabriel Knight Mystery
+@1996
+Quake|id Software|FPS|MS-DOS|Quake (video game)
+Diablo|Blizzard North|Action RPG|Windows|Diablo (video game)
+Civilization II|MicroProse|4X strategy|Windows|Civilization II
+Duke Nukem 3D|3D Realms|FPS|MS-DOS|Duke Nukem 3D
+The Elder Scrolls II: Daggerfall|Bethesda Softworks|RPG|MS-DOS|The Elder Scrolls II: Daggerfall
+Command & Conquer: Red Alert|Westwood Studios|RTS|MS-DOS / Windows|Command & Conquer: Red Alert
+Tomb Raider|Core Design|Action adventure|MS-DOS|Tomb Raider (1996 video game)
+Master of Orion II: Battle at Antares|SimTex|4X strategy|MS-DOS / Windows|Master of Orion II: Battle at Antares
+Heroes of Might and Magic II|New World Computing|Strategy|MS-DOS / Windows|Heroes of Might and Magic II
+Wing Commander IV: The Price of Freedom|Origin Systems|Space combat|MS-DOS|Wing Commander IV: The Price of Freedom
+Z|The Bitmap Brothers|RTS|MS-DOS|Z (video game)
+Broken Sword: The Shadow of the Templars|Revolution Software|Adventure|MS-DOS / Windows|Broken Sword: The Shadow of the Templars
+The Settlers II|Blue Byte|City builder|MS-DOS|The Settlers II
+Syndicate Wars|Bullfrog|Tactics|MS-DOS|Syndicate Wars
+Grand Prix 2|Geoff Crammond / MicroProse|Racing|MS-DOS|Grand Prix 2
+Lords of the Realm II|Impressions Games|Strategy|MS-DOS / Windows|Lords of the Realm II
+@1997
+Fallout|Interplay|RPG|Windows / MS-DOS|Fallout (video game)
+Age of Empires|Ensemble Studios|RTS|Windows|Age of Empires (video game)
+Ultima Online|Origin Systems|MMORPG|Windows|Ultima Online
+Quake II|id Software|FPS|Windows|Quake II
+Dungeon Keeper|Bullfrog|Strategy|MS-DOS / Windows|Dungeon Keeper
+Total Annihilation|Cavedog|RTS|Windows|Total Annihilation
+Blade Runner|Westwood Studios|Adventure|Windows|Blade Runner (1997 video game)
+The Curse of Monkey Island|LucasArts|Adventure|Windows|The Curse of Monkey Island
+Grand Theft Auto|DMA Design|Action|MS-DOS / Windows|Grand Theft Auto (video game)
+Carmageddon|Stainless Games|Racing|MS-DOS / Windows|Carmageddon
+Star Wars Jedi Knight: Dark Forces II|LucasArts|FPS|Windows|Star Wars Jedi Knight: Dark Forces II
+Myth: The Fallen Lords|Bungie|Tactics|Windows / Mac|Myth: The Fallen Lords
+Riven|Cyan|Adventure|Mac / Windows|Riven
+Theme Hospital|Bullfrog|Business sim|MS-DOS / Windows|Theme Hospital
+Shadow Warrior|3D Realms|FPS|MS-DOS|Shadow Warrior (1997 video game)
+MDK|Shiny Entertainment|Shooter|MS-DOS / Windows|MDK (video game)
+@1998
+Half-Life|Valve|FPS|Windows|Half-Life (video game)
+StarCraft|Blizzard Entertainment|RTS|Windows|StarCraft (video game)
+Baldur's Gate|BioWare|RPG|Windows|Baldur's Gate (video game)|file:Baldur's_Gate_box.PNG
+Grim Fandango|LucasArts|Adventure|Windows|Grim Fandango
+Thief: The Dark Project|Looking Glass|Stealth|Windows|Thief: The Dark Project
+Fallout 2|Black Isle Studios|RPG|Windows|Fallout 2
+Unreal|Epic MegaGames|FPS|Windows|Unreal (1998 video game)
+Might and Magic VI: The Mandate of Heaven|New World Computing|RPG|Windows|Might and Magic VI: The Mandate of Heaven
+Commandos: Behind Enemy Lines|Pyro Studios|Tactics|Windows|Commandos: Behind Enemy Lines
+Railroad Tycoon II|PopTop Software|Business sim|Windows|Railroad Tycoon II
+Caesar III|Impressions Games|City builder|Windows|Caesar III
+Tom Clancy's Rainbow Six|Red Storm Entertainment|Tactical shooter|Windows|Tom Clancy's Rainbow Six (video game)
+Starsiege: Tribes|Dynamix|FPS|Windows|Starsiege: Tribes
+Descent: FreeSpace – The Great War|Volition|Space combat|Windows|Descent: FreeSpace – The Great War
+Anno 1602|Max Design|City builder|Windows|Anno 1602
+Myth II: Soulblighter|Bungie|Tactics|Windows / Mac|Myth II: Soulblighter
+@1999
+Planescape: Torment|Black Isle Studios|RPG|Windows|Planescape: Torment
+System Shock 2|Irrational Games / Looking Glass|Immersive sim|Windows|System Shock 2
+Age of Empires II: The Age of Kings|Ensemble Studios|RTS|Windows|Age of Empires II
+Unreal Tournament|Epic Games|Arena FPS|Windows|Unreal Tournament
+Quake III Arena|id Software|Arena FPS|Windows|Quake III Arena
+Homeworld|Relic Entertainment|RTS|Windows|Homeworld (video game)
+Heroes of Might and Magic III|New World Computing|Strategy|Windows|Heroes of Might and Magic III
+RollerCoaster Tycoon|Chris Sawyer|Business sim|Windows|RollerCoaster Tycoon (video game)
+EverQuest|Verant Interactive|MMORPG|Windows|EverQuest
+Sid Meier's Alpha Centauri|Firaxis Games|4X strategy|Windows|Sid Meier's Alpha Centauri
+The Longest Journey|Funcom|Adventure|Windows|The Longest Journey
+FreeSpace 2|Volition|Space combat|Windows|FreeSpace 2
+Command & Conquer: Tiberian Sun|Westwood Studios|RTS|Windows|Command & Conquer: Tiberian Sun
+Jagged Alliance 2|Sir-Tech|Tactics|Windows|Jagged Alliance 2
+Outcast|Appeal|Action adventure|Windows|Outcast (video game)
+Dungeon Keeper 2|Bullfrog|Strategy|Windows|Dungeon Keeper 2
+@2000
+Deus Ex|Ion Storm|Immersive sim||Deus Ex (video game)
+The Sims|Maxis|Life sim||The Sims (video game)
+Diablo II|Blizzard North|Action RPG||Diablo II
+Baldur's Gate II: Shadows of Amn|BioWare|RPG||Baldur's Gate II: Shadows of Amn|file:Baldur's_Gate_II_-_Shadows_of_Amn_Coverart.png
+Counter-Strike|Valve|Tactical shooter||Counter-Strike (video game)
+Thief II: The Metal Age|Looking Glass|Stealth||Thief II
+Hitman: Codename 47|IO Interactive|Stealth||Hitman: Codename 47
+Icewind Dale|Black Isle Studios|RPG||Icewind Dale
+Escape from Monkey Island|LucasArts|Adventure||Escape from Monkey Island|file:Escape_from_Monkey_Island_artwork.jpg
+Sacrifice|Shiny Entertainment|RTS||Sacrifice (video game)
+The Operative: No One Lives Forever|Monolith|FPS||The Operative: No One Lives Forever
+Shogun: Total War|Creative Assembly|Strategy||Shogun: Total War
+Star Trek: Voyager – Elite Force|Raven Software|FPS||Star Trek: Voyager – Elite Force
+Vampire: The Masquerade – Redemption|Nihilistic Software|RPG||Vampire: The Masquerade – Redemption
+Giants: Citizen Kabuto|Planet Moon Studios|Action strategy||Giants: Citizen Kabuto
+American McGee's Alice|Rogue Entertainment|Action adventure||American McGee's Alice
+Ground Control|Massive Entertainment|RTS||Ground Control (video game)
+Zeus: Master of Olympus|Impressions Games|City builder||Zeus: Master of Olympus|file:Master_of_Olympus_-_Zeus_Coverart.png
+Command & Conquer: Red Alert 2|Westwood Pacific|RTS||Command & Conquer: Red Alert 2
+Majesty: The Fantasy Kingdom Sim|Cyberlore Studios|Strategy||Majesty: The Fantasy Kingdom Sim
+@2001
+Max Payne|Remedy Entertainment|Shooter||Max Payne (video game)
+Return to Castle Wolfenstein|Gray Matter Interactive|FPS||Return to Castle Wolfenstein
+Black & White|Lionhead Studios|God game||Black & White (video game)
+Operation Flashpoint: Cold War Crisis|Bohemia Interactive|Military sim||Operation Flashpoint: Cold War Crisis
+Arcanum: Of Steamworks and Magick Obscura|Troika Games|RPG||Arcanum: Of Steamworks and Magick Obscura
+Tropico|PopTop Software|City builder||Tropico (video game)|file:Tropico_Coverart.png
+Serious Sam: The First Encounter|Croteam|FPS||Serious Sam: The First Encounter
+Aliens versus Predator 2|Monolith|FPS||Aliens versus Predator 2
+Civilization III|Firaxis Games|4X strategy||Civilization III
+Empire Earth|Stainless Steel Studios|RTS||Empire Earth (video game)
+Gothic|Piranha Bytes|RPG||Gothic (video game)
+Commandos 2: Men of Courage|Pyro Studios|Tactics||Commandos 2: Men of Courage
+Tom Clancy's Ghost Recon|Red Storm Entertainment|Tactical shooter||Tom Clancy's Ghost Recon (2001 video game)
+Dark Age of Camelot|Mythic Entertainment|MMORPG||Dark Age of Camelot
+Startopia|Mucky Foot|Business sim||Startopia
+Zoo Tycoon|Blue Fang Games|Business sim||Zoo Tycoon (2001 video game)
+IL-2 Sturmovik|1C:Maddox Games|Flight sim||IL-2 Sturmovik (video game)|file:IL-2_Sturmovik_Coverart.png
+Wizardry 8|Sir-Tech Canada|RPG||Wizardry 8
+Stronghold|Firefly Studios|Castle sim||Stronghold (2001 video game)
+Anachronox|Ion Storm|RPG||Anachronox
+@2002
+Warcraft III: Reign of Chaos|Blizzard Entertainment|RTS||Warcraft III: Reign of Chaos
+The Elder Scrolls III: Morrowind|Bethesda Game Studios|RPG||The Elder Scrolls III: Morrowind
+Neverwinter Nights|BioWare|RPG||Neverwinter Nights (2002 video game)
+Battlefield 1942|Digital Illusions CE|FPS||Battlefield 1942
+Mafia|Illusion Softworks|Action||Mafia (2002 video game)
+No One Lives Forever 2: A Spy in H.A.R.M.'s Way|Monolith|FPS||No One Lives Forever 2: A Spy in H.A.R.M.'s Way
+Medal of Honor: Allied Assault|2015, Inc.|FPS||Medal of Honor: Allied Assault
+Unreal Tournament 2003|Digital Extremes / Epic|Arena FPS||Unreal Tournament 2003
+Hitman 2: Silent Assassin|IO Interactive|Stealth||Hitman 2: Silent Assassin
+Age of Mythology|Ensemble Studios|RTS||Age of Mythology
+Dungeon Siege|Gas Powered Games|Action RPG||Dungeon Siege (video game)
+Icewind Dale II|Black Isle Studios|RPG||Icewind Dale II
+Freedom Force|Irrational Games|Tactics||Freedom Force (2002 video game)
+Gothic II|Piranha Bytes|RPG||Gothic II
+Divine Divinity|Larian Studios|Action RPG||Divine Divinity
+Star Wars Jedi Knight II: Jedi Outcast|Raven Software|Action||Star Wars Jedi Knight II: Jedi Outcast
+Medieval: Total War|Creative Assembly|Strategy||Medieval: Total War
+Arx Fatalis|Arkane Studios|RPG||Arx Fatalis
+RollerCoaster Tycoon 2|Chris Sawyer|Business sim||RollerCoaster Tycoon 2
+Soldier of Fortune II: Double Helix|Raven Software|FPS||Soldier of Fortune II: Double Helix
+@2003
+Star Wars: Knights of the Old Republic|BioWare|RPG||Star Wars: Knights of the Old Republic (video game)
+Call of Duty|Infinity Ward|FPS||Call of Duty (video game)
+Max Payne 2: The Fall of Max Payne|Remedy Entertainment|Shooter||Max Payne 2: The Fall of Max Payne
+Homeworld 2|Relic Entertainment|RTS||Homeworld 2
+Rise of Nations|Big Huge Games|RTS||Rise of Nations
+SimCity 4|Maxis|City builder||SimCity 4
+EVE Online|CCP Games|MMO||Eve Online
+Star Wars Galaxies|Sony Online Entertainment|MMORPG||Star Wars Galaxies
+Freelancer|Digital Anvil|Space sim||Freelancer (video game)
+Deus Ex: Invisible War|Ion Storm|Immersive sim||Deus Ex: Invisible War
+PlanetSide|Sony Online Entertainment|MMOFPS||PlanetSide
+Tron 2.0|Monolith|FPS||Tron 2.0
+Silent Storm|Nival Interactive|Tactics||Silent Storm
+Command & Conquer: Generals|EA Pacific|RTS||Command & Conquer: Generals
+Hidden & Dangerous 2|Illusion Softworks|Tactical shooter||Hidden & Dangerous 2
+The Temple of Elemental Evil|Troika Games|RPG||The Temple of Elemental Evil (video game)
+Vietcong|Pterodon / Illusion Softworks|Tactical shooter||Vietcong (video game)
+Postal 2|Running with Scissors|FPS||Postal 2
+SpellForce: The Order of Dawn|Phenomic|RTS / RPG||SpellForce: The Order of Dawn
+Lock On: Modern Air Combat|Eagle Dynamics|Flight sim||Lock On: Modern Air Combat
+@2004
+Half-Life 2|Valve|FPS||Half-Life 2
+World of Warcraft|Blizzard Entertainment|MMORPG||World of Warcraft
+Far Cry|Crytek|FPS||Far Cry (video game)|file:Far_Cry_1_boxshot.jpg
+Counter-Strike: Source|Valve|Tactical shooter||Counter-Strike: Source
+The Sims 2|Maxis|Life sim||The Sims 2
+RollerCoaster Tycoon 3|Frontier Developments|Business sim||RollerCoaster Tycoon 3|file:RCT3-cover_art.jpg
+Doom 3|id Software|FPS||Doom 3
+Ground Control II: Operation Exodus|Massive Entertainment|RTS||Ground Control II: Operation Exodus
+OpenTTD|OpenTTD team|Business sim|Windows / Mac / Linux|OpenTTD
+Vampire: The Masquerade – Bloodlines|Troika Games|RPG||Vampire: The Masquerade – Bloodlines
+Thief: Deadly Shadows|Ion Storm|Stealth||Thief: Deadly Shadows
+Rome: Total War|Creative Assembly|Strategy||Rome: Total War
+Warhammer 40,000: Dawn of War|Relic Entertainment|RTS||Warhammer 40,000: Dawn of War
+Unreal Tournament 2004|Epic Games|Arena FPS||Unreal Tournament 2004
+Painkiller|People Can Fly|FPS||Painkiller (video game)
+Battlefield Vietnam|Digital Illusions Canada|FPS||Battlefield Vietnam
+Sacred|Ascaron|Action RPG||Sacred (video game)
+Evil Genius|Elixir Studios|Strategy||Evil Genius (video game)
+City of Heroes|Cryptic Studios|MMORPG||City of Heroes
+EverQuest II|Sony Online Entertainment|MMORPG||EverQuest II
+@2005
+F.E.A.R.|Monolith|FPS||F.E.A.R. (video game)|file:FEAR_DVD_box_art.jpg
+Guild Wars|ArenaNet|Online RPG||Guild Wars (video game)|file:Guildbox.jpg
+Civilization IV|Firaxis Games|4X strategy||Civilization IV
+Age of Empires III|Ensemble Studios|RTS||Age of Empires III
+Battlefield 2|Digital Illusions CE|FPS||Battlefield 2
+Call of Duty 2|Infinity Ward|FPS||Call of Duty 2
+Psychonauts|Double Fine|Platformer||Psychonauts
+Fahrenheit|Quantic Dream|Adventure||Fahrenheit (2005 video game)
+Dungeon Siege II|Gas Powered Games|Action RPG||Dungeon Siege II
+Quake 4|Raven Software|FPS||Quake 4
+Silent Hunter III|Ubisoft Romania|Naval sim||Silent Hunter III
+Darwinia|Introversion Software|Strategy||Darwinia (video game)
+The Movies|Lionhead Studios|Business sim||The Movies (video game)
+Black & White 2|Lionhead Studios|God game||Black & White 2
+SWAT 4|Irrational Games|Tactical shooter||SWAT 4
+Hearts of Iron II|Paradox Interactive|Grand strategy||Hearts of Iron II
+Act of War: Direct Action|Eugen Systems|RTS||Act of War: Direct Action
+Serious Sam 2|Croteam|FPS||Serious Sam 2
+TrackMania Sunrise|Nadeo|Racing||TrackMania Sunrise
+Earth 2160|Reality Pump|RTS||Earth 2160
+@2006
+The Elder Scrolls IV: Oblivion|Bethesda Game Studios|RPG||The Elder Scrolls IV: Oblivion
+Half-Life 2: Episode One|Valve|FPS||Half-Life 2: Episode One
+Company of Heroes|Relic Entertainment|RTS||Company of Heroes
+Prey|Human Head Studios|FPS||Prey (2006 video game)
+Hitman: Blood Money|IO Interactive|Stealth||Hitman: Blood Money
+Medieval II: Total War|Creative Assembly|Strategy||Medieval II: Total War
+Galactic Civilizations II: Dread Lords|Stardock|4X strategy||Galactic Civilizations II: Dread Lords
+Heroes of Might and Magic V|Nival Interactive|Strategy||Heroes of Might and Magic V
+Gothic 3|Piranha Bytes|RPG||Gothic 3
+Neverwinter Nights 2|Obsidian Entertainment|RPG||Neverwinter Nights 2
+Dreamfall: The Longest Journey|Funcom|Adventure||Dreamfall: The Longest Journey
+DEFCON|Introversion Software|Strategy||DEFCON (video game)
+Titan Quest|Iron Lore Entertainment|Action RPG||Titan Quest
+Dark Messiah of Might and Magic|Arkane Studios|Action RPG||Dark Messiah of Might and Magic
+Battlefield 2142|Digital Illusions CE|FPS||Battlefield 2142
+ArmA: Armed Assault|Bohemia Interactive|Military sim||ARMA: Armed Assault
+Rise of Nations: Rise of Legends|Big Huge Games|RTS||Rise of Nations: Rise of Legends
+Sid Meier's Railroads!|Firaxis Games|Business sim||Sid Meier's Railroads!
+Garry's Mod|Facepunch Studios|Sandbox||Garry's Mod
+SiN Episodes: Emergence|Ritual Entertainment|FPS||SiN Episodes: Emergence
+@2007
+Portal|Valve|Puzzle||Portal (video game)
+Team Fortress 2|Valve|FPS||Team Fortress 2
+Half-Life 2: Episode Two|Valve|FPS||Half-Life 2: Episode Two
+BioShock|2K Boston|Immersive sim||BioShock (video game)
+Crysis|Crytek|FPS||Crysis (video game)
+S.T.A.L.K.E.R.: Shadow of Chernobyl|GSC Game World|FPS||S.T.A.L.K.E.R.: Shadow of Chernobyl
+The Witcher|CD Projekt Red|RPG||The Witcher (video game)
+Call of Duty 4: Modern Warfare|Infinity Ward|FPS||Call of Duty 4: Modern Warfare
+World in Conflict|Massive Entertainment|RTS||World in Conflict
+Supreme Commander|Gas Powered Games|RTS||Supreme Commander (video game)
+Command & Conquer 3: Tiberium Wars|EA Los Angeles|RTS||Command & Conquer 3: Tiberium Wars
+Aquaria|Bit Blot|Metroidvania||Aquaria (video game)|url:https://cdn.mobygames.com/covers/4916177-aquaria-windows-front-cover.jpg
+Penumbra: Overture|Frictional Games|Horror||Penumbra: Overture
+The Lord of the Rings Online|Turbine|MMORPG||The Lord of the Rings Online
+Unreal Tournament 3|Epic Games|Arena FPS||Unreal Tournament 3
+Enemy Territory: Quake Wars|Splash Damage|FPS||Enemy Territory: Quake Wars
+Overlord|Triumph Studios|Action||Overlord (2007 video game)
+Peggle|PopCap Games|Puzzle||Peggle
+Europa Universalis III|Paradox Interactive|Grand strategy||Europa Universalis III
+Sam & Max Season One|Telltale Games|Adventure||Sam & Max Save the World
+@2008
+Left 4 Dead|Valve|FPS||Left 4 Dead
+Fallout 3|Bethesda Game Studios|RPG||Fallout 3
+Spore|Maxis|Simulation||Spore (2008 video game)
+World of Goo|2D Boy|Puzzle||World of Goo
+Sins of a Solar Empire|Ironclad Games|4X strategy||Sins of a Solar Empire
+Crysis Warhead|Crytek|FPS||Crysis Warhead
+Mount & Blade|TaleWorlds|Action RPG||Mount & Blade
+Audiosurf|Dylan Fitterer|Music||Audiosurf
+Age of Conan: Hyborian Adventures|Funcom|MMORPG||Age of Conan
+Warhammer Online: Age of Reckoning|Mythic Entertainment|MMORPG||Warhammer Online: Age of Reckoning
+Far Cry 2|Ubisoft Montreal|FPS||Far Cry 2
+S.T.A.L.K.E.R.: Clear Sky|GSC Game World|FPS||S.T.A.L.K.E.R.: Clear Sky
+King's Bounty: The Legend|Katauri Interactive|Strategy||King's Bounty: The Legend
+Dead Space|EA Redwood Shores|Survival horror||Dead Space (2008 video game)
+TrackMania United Forever|Nadeo|Racing||TrackMania United Forever
+Defense Grid: The Awakening|Hidden Path Entertainment|Tower defense||Defense Grid: The Awakening
+Penumbra: Black Plague|Frictional Games|Horror||Penumbra: Black Plague
+Command & Conquer: Red Alert 3|EA Los Angeles|RTS||Command & Conquer: Red Alert 3
+Sacred 2: Fallen Angel|Ascaron|Action RPG||Sacred 2: Fallen Angel
+Civilization IV: Colonization|Firaxis Games|4X strategy||Civilization IV: Colonization
+@2009
+Dragon Age: Origins|BioWare|RPG||Dragon Age: Origins
+Torchlight|Runic Games|Action RPG||Torchlight (video game)
+Plants vs. Zombies|PopCap Games|Tower defense||Plants vs. Zombies (video game)
+Left 4 Dead 2|Valve|FPS||Left 4 Dead 2
+Batman: Arkham Asylum|Rocksteady Studios|Action adventure||Batman: Arkham Asylum
+Borderlands|Gearbox Software|Looter shooter||Borderlands (video game)
+Empire: Total War|Creative Assembly|Strategy||Empire: Total War
+Warhammer 40,000: Dawn of War II|Relic Entertainment|RTS||Warhammer 40,000: Dawn of War II
+Machinarium|Amanita Design|Adventure||Machinarium
+Call of Duty: Modern Warfare 2|Infinity Ward|FPS||Call of Duty: Modern Warfare 2
+Trine|Frozenbyte|Puzzle platformer||Trine (video game)
+Osmos|Hemisphere Games|Puzzle||Osmos
+League of Legends|Riot Games|MOBA||League of Legends
+Anno 1404|Related Designs|City builder||Anno 1404
+Risen|Piranha Bytes|RPG||Risen (video game)
+Killing Floor|Tripwire Interactive|FPS||Killing Floor (video game)
+Zeno Clash|ACE Team|Action||Zeno Clash
+S.T.A.L.K.E.R.: Call of Pripyat|GSC Game World|FPS||S.T.A.L.K.E.R.: Call of Pripyat
+ArmA 2|Bohemia Interactive|Military sim||ARMA 2
+The Sims 3|The Sims Studio|Life sim||The Sims 3
+@2010
+StarCraft II: Wings of Liberty|Blizzard Entertainment|RTS||StarCraft II: Wings of Liberty
+Mass Effect 2|BioWare|RPG||Mass Effect 2
+Civilization V|Firaxis Games|4X strategy||Civilization V
+Amnesia: The Dark Descent|Frictional Games|Horror||Amnesia: The Dark Descent
+Fallout: New Vegas|Obsidian Entertainment|RPG||Fallout: New Vegas
+Super Meat Boy|Team Meat|Platformer||Super Meat Boy
+Battlefield: Bad Company 2|DICE|FPS||Battlefield: Bad Company 2
+VVVVVV|Terry Cavanagh|Platformer||VVVVVV
+Mafia II|2K Czech|Action||Mafia II
+Metro 2033|4A Games|FPS||Metro 2033 (video game)
+Napoleon: Total War|Creative Assembly|Strategy||Napoleon: Total War
+Mount & Blade: Warband|TaleWorlds|Action RPG||Mount & Blade: Warband
+Call of Duty: Black Ops|Treyarch|FPS||Call of Duty: Black Ops
+BioShock 2|2K Marin|Shooter||BioShock 2
+Alien Swarm|Valve|Shooter||Alien Swarm
+World of Tanks|Wargaming|Online action||World of Tanks
+Sam & Max: The Devil's Playhouse|Telltale Games|Adventure||Sam & Max: The Devil's Playhouse
+Revenge of the Titans|Puppygames|Tower defense||Revenge of the Titans
+Victoria II|Paradox Interactive|Grand strategy||Victoria II
+Just Cause 2|Avalanche Studios|Action||Just Cause 2
+@2011
+The Elder Scrolls V: Skyrim|Bethesda Game Studios|RPG||The Elder Scrolls V: Skyrim
+Portal 2|Valve|Puzzle||Portal 2
+Minecraft|Mojang|Sandbox||Minecraft
+Terraria|Re-Logic|Sandbox||Terraria
+Bastion|Supergiant Games|Action RPG||Bastion (video game)
+Deus Ex: Human Revolution|Eidos-Montréal|Immersive sim||Deus Ex: Human Revolution
+The Witcher 2: Assassins of Kings|CD Projekt Red|RPG||The Witcher 2: Assassins of Kings
+Batman: Arkham City|Rocksteady Studios|Action adventure||Batman: Arkham City
+Battlefield 3|DICE|FPS||Battlefield 3
+Frozen Synapse|Mode 7|Tactics||Frozen Synapse
+Magicka|Arrowhead Game Studios|Action||Magicka
+Dungeons of Dredmor|Gaslamp Games|Roguelike||Dungeons of Dredmor
+Total War: Shogun 2|Creative Assembly|Strategy||Total War: Shogun 2
+The Binding of Isaac|Edmund McMillen|Roguelike||The Binding of Isaac (video game)
+Trine 2|Frozenbyte|Puzzle platformer||Trine 2
+SpaceChem|Zachtronics|Puzzle||SpaceChem
+To the Moon|Freebird Games|Adventure||To the Moon
+Orcs Must Die!|Robot Entertainment|Tower defense||Orcs Must Die!
+Star Wars: The Old Republic|BioWare|MMORPG||Star Wars: The Old Republic
+Serious Sam 3: BFE|Croteam|FPS||Serious Sam 3: BFE
+@2012
+XCOM: Enemy Unknown|Firaxis Games|Tactics||XCOM: Enemy Unknown
+FTL: Faster Than Light|Subset Games|Roguelike||FTL: Faster Than Light
+Dishonored|Arkane Studios|Immersive sim||Dishonored
+Mass Effect 3|BioWare|RPG||Mass Effect 3
+Diablo III|Blizzard Entertainment|Action RPG||Diablo III
+Guild Wars 2|ArenaNet|MMORPG||Guild Wars 2
+Crusader Kings II|Paradox Development Studio|Grand strategy||Crusader Kings II
+Mark of the Ninja|Klei Entertainment|Stealth||Mark of the Ninja
+Hotline Miami|Dennaton Games|Action||Hotline Miami
+Torchlight II|Runic Games|Action RPG||Torchlight II
+Borderlands 2|Gearbox Software|Looter shooter||Borderlands 2
+Far Cry 3|Ubisoft Montreal|FPS||Far Cry 3
+Legend of Grimrock|Almost Human|RPG||Legend of Grimrock
+Dear Esther|The Chinese Room|Adventure||Dear Esther
+PlanetSide 2|Sony Online Entertainment|MMOFPS||PlanetSide 2
+The Walking Dead|Telltale Games|Adventure||The Walking Dead (video game)
+Counter-Strike: Global Offensive|Valve / Hidden Path|Tactical shooter||Counter-Strike: Global Offensive
+Natural Selection 2|Unknown Worlds|FPS / RTS||Natural Selection 2
+Endless Space|Amplitude Studios|4X strategy||Endless Space
+Max Payne 3|Rockstar Studios|Shooter||Max Payne 3
+@2013
+Dota 2|Valve|MOBA||Dota 2
+Papers, Please|Lucas Pope|Puzzle||Papers, Please
+Gone Home|The Fullbright Company|Adventure||Gone Home
+BioShock Infinite|Irrational Games|Shooter||BioShock Infinite
+The Stanley Parable|Galactic Cafe|Adventure||The Stanley Parable
+Rogue Legacy|Cellar Door Games|Roguelike||Rogue Legacy
+Don't Starve|Klei Entertainment|Survival||Don't Starve
+Tomb Raider|Crystal Dynamics|Action adventure||Tomb Raider (2013 video game)
+Metro: Last Light|4A Games|FPS||Metro: Last Light
+Total War: Rome II|Creative Assembly|Strategy||Total War: Rome II
+Path of Exile|Grinding Gear Games|Action RPG||Path of Exile
+Shadowrun Returns|Harebrained Schemes|Tactics||Shadowrun Returns
+Antichamber|Alexander Bruce|Puzzle||Antichamber
+Risk of Rain|Hopoo Games|Roguelike||Risk of Rain (video game)
+The Swapper|Facepalm Games|Puzzle platformer||The Swapper
+Gunpoint|Suspicious Developments|Stealth puzzle||Gunpoint (video game)
+Saints Row IV|Volition|Action||Saints Row IV
+Outlast|Red Barrels|Horror||Outlast (video game)
+Arma 3|Bohemia Interactive|Military sim||Arma 3
+Battlefield 4|DICE|FPS||Battlefield 4
+@2014
+Divinity: Original Sin|Larian Studios|RPG||Divinity: Original Sin
+Shovel Knight|Yacht Club Games|Platformer||Shovel Knight
+Hearthstone|Blizzard Entertainment|Card game||Hearthstone
+Wolfenstein: The New Order|MachineGames|FPS||Wolfenstein: The New Order
+Alien: Isolation|Creative Assembly|Survival horror||Alien: Isolation
+Dragon Age: Inquisition|BioWare|RPG||Dragon Age: Inquisition
+Transistor|Supergiant Games|Action RPG||Transistor (video game)
+This War of Mine|11 bit studios|Survival||This War of Mine
+Elite Dangerous|Frontier Developments|Space sim||Elite Dangerous
+Wasteland 2|inXile Entertainment|RPG||Wasteland 2
+Banished|Shining Rock Software|City builder||Banished (video game)
+Legend of Grimrock II|Almost Human|RPG||Legend of Grimrock II
+Middle-earth: Shadow of Mordor|Monolith|Action||Middle-earth: Shadow of Mordor
+South Park: The Stick of Truth|Obsidian Entertainment|RPG||South Park: The Stick of Truth
+Five Nights at Freddy's|Scott Cawthon|Horror||Five Nights at Freddy's (video game)
+Endless Legend|Amplitude Studios|4X strategy||Endless Legend
+The Talos Principle|Croteam|Puzzle||The Talos Principle
+The Vanishing of Ethan Carter|The Astronauts|Adventure||The Vanishing of Ethan Carter
+Dark Souls II|FromSoftware|Action RPG||Dark Souls II
+Goat Simulator|Coffee Stain Studios|Sandbox||Goat Simulator
+@2015
+The Witcher 3: Wild Hunt|CD Projekt Red|RPG||The Witcher 3: Wild Hunt
+Undertale|Toby Fox|RPG||Undertale
+Rocket League|Psyonix|Sports||Rocket League
+Pillars of Eternity|Obsidian Entertainment|RPG||Pillars of Eternity
+Cities: Skylines|Colossal Order|City builder||Cities: Skylines
+Ori and the Blind Forest|Moon Studios|Metroidvania||Ori and the Blind Forest
+Kerbal Space Program|Squad|Space sim||Kerbal Space Program
+Her Story|Sam Barlow|Adventure||Her Story (video game)
+Life Is Strange|Dontnod Entertainment|Adventure||Life Is Strange (video game)
+Fallout 4|Bethesda Game Studios|RPG||Fallout 4
+Metal Gear Solid V: The Phantom Pain|Kojima Productions|Stealth||Metal Gear Solid V: The Phantom Pain
+Crypt of the NecroDancer|Brace Yourself Games|Rhythm roguelike||Crypt of the NecroDancer
+Sunless Sea|Failbetter Games|Adventure||Sunless Sea
+Prison Architect|Introversion Software|Management||Prison Architect
+Heroes of the Storm|Blizzard Entertainment|MOBA||Heroes of the Storm
+SOMA|Frictional Games|Horror||Soma (video game)
+Invisible, Inc.|Klei Entertainment|Tactics||Invisible, Inc.
+Hotline Miami 2: Wrong Number|Dennaton Games|Action||Hotline Miami 2: Wrong Number
+Dying Light|Techland|Survival horror||Dying Light
+Dirt Rally|Codemasters|Racing||Dirt Rally
+@2016
+Stardew Valley|ConcernedApe|Farming sim||Stardew Valley
+Doom|id Software|FPS||Doom (2016 video game)
+Overwatch|Blizzard Entertainment|Hero shooter||Overwatch (video game)
+Dishonored 2|Arkane Studios|Immersive sim||Dishonored 2
+Darkest Dungeon|Red Hook Studios|RPG||Darkest Dungeon
+Inside|Playdead|Puzzle platformer||Inside (video game)
+Firewatch|Campo Santo|Adventure||Firewatch
+Civilization VI|Firaxis Games|4X strategy||Civilization VI
+Titanfall 2|Respawn Entertainment|FPS||Titanfall 2
+XCOM 2|Firaxis Games|Tactics||XCOM 2
+Hitman|IO Interactive|Stealth||Hitman (2016 video game)
+Starbound|Chucklefish|Sandbox||Starbound
+Enter the Gungeon|Dodge Roll|Roguelike||Enter the Gungeon
+The Witness|Thekla, Inc.|Puzzle||The Witness (2016 video game)
+Oxenfree|Night School Studio|Adventure||Oxenfree
+Superhot|Superhot Team|FPS||Superhot
+Hyper Light Drifter|Heart Machine|Action RPG||Hyper Light Drifter
+Total War: Warhammer|Creative Assembly|Strategy||Total War: Warhammer
+Stellaris|Paradox Development Studio|Grand strategy||Stellaris (video game)
+Battlefield 1|DICE|FPS||Battlefield 1
+@2017
+Hollow Knight|Team Cherry|Metroidvania||Hollow Knight
+Divinity: Original Sin II|Larian Studios|RPG||Divinity: Original Sin II
+Prey|Arkane Studios|Immersive sim||Prey (2017 video game)
+Cuphead|Studio MDHR|Run and gun||Cuphead
+PlayerUnknown's Battlegrounds|PUBG Corporation|Battle royale||PUBG: Battlegrounds
+Nier: Automata|PlatinumGames|Action RPG||Nier: Automata
+What Remains of Edith Finch|Giant Sparrow|Adventure||What Remains of Edith Finch
+Night in the Woods|Infinite Fall|Adventure||Night in the Woods
+Pyre|Supergiant Games|RPG||Pyre (video game)
+Opus Magnum|Zachtronics|Puzzle||Opus Magnum
+Slime Rancher|Monomi Park|Simulation||Slime Rancher
+Getting Over It with Bennett Foddy|Bennett Foddy|Climbing||Getting Over It with Bennett Foddy
+Hellblade: Senua's Sacrifice|Ninja Theory|Action adventure||Hellblade: Senua's Sacrifice
+Doki Doki Literature Club!|Team Salvato|Visual novel||Doki Doki Literature Club!
+Wolfenstein II: The New Colossus|MachineGames|FPS||Wolfenstein II: The New Colossus
+Total War: Warhammer II|Creative Assembly|Strategy||Total War: Warhammer II
+Rain World|Videocult|Survival platformer||Rain World
+Tacoma|The Fullbright Company|Adventure||Tacoma (video game)
+Resident Evil 7: Biohazard|Capcom|Survival horror||Resident Evil 7: Biohazard
+Ruiner|Reikon Games|Action||Ruiner (video game)
+@2018
+Celeste|Maddy Makes Games|Platformer||Celeste (video game)
+Into the Breach|Subset Games|Tactics||Into the Breach
+Return of the Obra Dinn|Lucas Pope|Mystery||Return of the Obra Dinn
+Among Us|Innersloth|Social deduction||Among Us
+Frostpunk|11 bit studios|City builder||Frostpunk
+Subnautica|Unknown Worlds|Survival||Subnautica
+Dead Cells|Motion Twin|Roguelite||Dead Cells
+Monster Hunter: World|Capcom|Action RPG||Monster Hunter: World
+Kingdom Come: Deliverance|Warhorse Studios|RPG||Kingdom Come: Deliverance
+Pathfinder: Kingmaker|Owlcat Games|RPG||Pathfinder: Kingmaker
+Dusk|David Szymanski|FPS||Dusk (video game)
+Hitman 2|IO Interactive|Stealth||Hitman 2 (2018 video game)
+Pillars of Eternity II: Deadfire|Obsidian Entertainment|RPG||Pillars of Eternity II: Deadfire
+Battletech|Harebrained Schemes|Tactics||Battletech (video game)
+RimWorld|Ludeon Studios|Colony sim||RimWorld
+Moonlighter|Digital Sun|Action RPG||Moonlighter (video game)
+Gris|Nomada Studio|Platformer||Gris (video game)
+Rust|Facepunch Studios|Survival||Rust (video game)
+Two Point Hospital|Two Point Studios|Business sim||Two Point Hospital
+Bad North|Plausible Concept|Strategy||Bad North
+@2019
+Disco Elysium|ZA/UM|RPG||Disco Elysium
+Slay the Spire|Mega Crit|Deckbuilder||Slay the Spire
+Outer Wilds|Mobius Digital|Exploration||Outer Wilds
+Sekiro: Shadows Die Twice|FromSoftware|Action adventure||Sekiro: Shadows Die Twice
+Control|Remedy Entertainment|Action adventure||Control (video game)
+Beat Saber|Beat Games|VR rhythm||Beat Saber
+Baba Is You|Hempuli|Puzzle||Baba Is You
+Untitled Goose Game|House House|Stealth puzzle||Untitled Goose Game
+Resident Evil 2|Capcom|Survival horror||Resident Evil 2 (2019 video game)
+Anno 1800|Ubisoft Blue Byte|City builder||Anno 1800
+Total War: Three Kingdoms|Creative Assembly|Strategy||Total War: Three Kingdoms
+Katana Zero|Askiisoft|Action||Katana Zero
+A Plague Tale: Innocence|Asobo Studio|Adventure||A Plague Tale: Innocence
+Pathologic 2|Ice-Pick Lodge|Survival||Pathologic 2
+Hypnospace Outlaw|Tendershoot|Simulation||Hypnospace Outlaw
+Mordhau|Triternion|Action||Mordhau (video game)
+Planet Zoo|Frontier Developments|Business sim||Planet Zoo
+Apex Legends|Respawn Entertainment|Battle royale||Apex Legends
+Ape Out|Gabe Cuzzillo|Action||Ape Out
+Star Wars Jedi: Fallen Order|Respawn Entertainment|Action adventure||Star Wars Jedi: Fallen Order
+@2020
+Hades|Supergiant Games|Roguelite||Hades (video game)
+Half-Life: Alyx|Valve|VR FPS||Half-Life: Alyx
+Factorio|Wube Software|Automation||Factorio
+Risk of Rain 2|Hopoo Games|Roguelite||Risk of Rain 2
+Noita|Nolla Games|Roguelite||Noita (video game)
+Microsoft Flight Simulator|Asobo Studio|Flight sim||Microsoft Flight Simulator (2020 video game)
+Doom Eternal|id Software|FPS||Doom Eternal
+Cyberpunk 2077|CD Projekt Red|RPG||Cyberpunk 2077
+Crusader Kings III|Paradox Development Studio|Grand strategy||Crusader Kings III
+Spelunky 2|Mossmouth|Roguelike platformer||Spelunky 2
+Fall Guys|Mediatonic|Party||Fall Guys
+Valorant|Riot Games|Tactical shooter||Valorant
+Kentucky Route Zero|Cardboard Computer|Adventure||Kentucky Route Zero
+Ori and the Will of the Wisps|Moon Studios|Metroidvania||Ori and the Will of the Wisps
+Monster Train|Shiny Shoe|Deckbuilder||Monster Train
+Deep Rock Galactic|Ghost Ship Games|Co-op FPS||Deep Rock Galactic
+Genshin Impact|miHoYo|Action RPG||Genshin Impact
+Ghostrunner|One More Level|Action||Ghostrunner
+Star Wars: Squadrons|Motive Studio|Space combat||Star Wars: Squadrons
+Desperados III|Mimimi Games|Tactics||Desperados III
+@2021
+Inscryption|Daniel Mullins Games|Deckbuilder||Inscryption
+Loop Hero|Four Quarters|Roguelike||Loop Hero
+Deathloop|Arkane Lyon|FPS||Deathloop
+It Takes Two|Hazelight Studios|Co-op adventure||It Takes Two (video game)
+Psychonauts 2|Double Fine|Platformer||Psychonauts 2
+Forza Horizon 5|Playground Games|Racing||Forza Horizon 5
+Halo Infinite|343 Industries|FPS||Halo Infinite
+Resident Evil Village|Capcom|Survival horror||Resident Evil Village
+Death's Door|Acid Nerve|Action adventure||Death's Door
+Unpacking|Witch Beam|Puzzle||Unpacking (video game)
+Wildermyth|Worldwalker Games|Tactics RPG||Wildermyth
+Age of Empires IV|Relic Entertainment|RTS||Age of Empires IV
+Pathfinder: Wrath of the Righteous|Owlcat Games|RPG||Pathfinder: Wrath of the Righteous
+Cruelty Squad|Consumer Softproducts|FPS||Cruelty Squad
+Hitman 3|IO Interactive|Stealth||Hitman 3
+Chicory: A Colorful Tale|Greg Lobanov|Adventure||Chicory: A Colorful Tale
+Sable|Shedworks|Exploration||Sable (video game)
+The Forgotten City|Modern Storyteller|Adventure||The Forgotten City
+Griftlands|Klei Entertainment|Deckbuilder||Griftlands
+Townscaper|Oskar Stålberg|Sandbox||Townscaper
+@2022
+Elden Ring|FromSoftware|Action RPG||Elden Ring
+Vampire Survivors|poncle|Roguelite||Vampire Survivors
+Teardown|Tuxedo Labs|Sandbox||Teardown (video game)
+Tunic|Isometricorp Games|Action adventure||Tunic (video game)
+Neon White|Angel Matrix|FPS||Neon White
+Cult of the Lamb|Massive Monster|Roguelite||Cult of the Lamb
+Stray|BlueTwelve Studio|Adventure||Stray (video game)
+Pentiment|Obsidian Entertainment|Adventure||Pentiment (video game)
+Rogue Legacy 2|Cellar Door Games|Roguelite||Rogue Legacy 2
+Citizen Sleeper|Jump Over the Age|RPG||Citizen Sleeper
+Signalis|Rose-Engine|Survival horror||Signalis
+Total War: Warhammer III|Creative Assembly|Strategy||Total War: Warhammer III
+Victoria 3|Paradox Development Studio|Grand strategy||Victoria 3
+Dwarf Fortress|Bay 12 Games|Colony sim||Dwarf Fortress
+Sifu|Sloclap|Action||Sifu (video game)
+Return to Monkey Island|Terrible Toybox|Adventure||Return to Monkey Island
+Norco|Geography of Robots|Adventure||Norco (video game)
+Immortality|Half Mermaid|Mystery||Immortality (video game)
+Mount & Blade II: Bannerlord|TaleWorlds|Action RPG||Mount & Blade II: Bannerlord
+Trombone Champ|Holy Wow Studios|Rhythm||Trombone Champ
+@2023
+Baldur's Gate 3|Larian Studios|RPG||Baldur's Gate 3
+Starfield|Bethesda Game Studios|RPG||Starfield (video game)
+Armored Core VI: Fires of Rubicon|FromSoftware|Mech action||Armored Core VI: Fires of Rubicon
+Hi-Fi Rush|Tango Gameworks|Rhythm action||Hi-Fi Rush
+Dave the Diver|Mintrocket|Adventure||Dave the Diver
+Dredge|Black Salt Games|Fishing adventure||Dredge (video game)
+Cocoon|Geometric Interactive|Puzzle||Cocoon (video game)
+Lies of P|Round8 Studio|Action RPG||Lies of P
+Sea of Stars|Sabotage Studio|RPG||Sea of Stars
+Alan Wake 2|Remedy Entertainment|Survival horror||Alan Wake 2
+Counter-Strike 2|Valve|Tactical shooter||Counter-Strike 2
+Pizza Tower|Tour De Pizza|Platformer||Pizza Tower
+Remnant II|Gunfire Games|Shooter||Remnant II
+Darkest Dungeon II|Red Hook Studios|Roguelike||Darkest Dungeon II
+Jagged Alliance 3|Haemimont Games|Tactics||Jagged Alliance 3
+Dead Space|Motive Studio|Survival horror||Dead Space (2023 video game)
+Viewfinder|Sad Owl Studios|Puzzle||Viewfinder (video game)
+Against the Storm|Eremite Games|City builder||Against the Storm
+Brotato|Blobfish|Roguelite||Brotato
+The Talos Principle 2|Croteam|Puzzle||The Talos Principle 2
+@2024
+Balatro|LocalThunk|Deckbuilder||Balatro (video game)
+Animal Well|Billy Basso|Metroidvania||Animal Well
+Helldivers 2|Arrowhead Game Studios|Co-op shooter||Helldivers 2
+Satisfactory|Coffee Stain Studios|Automation||Satisfactory (video game)
+UFO 50|Mossmouth|Collection||UFO 50
+Metaphor: ReFantazio|Studio Zero|RPG||Metaphor: ReFantazio
+Black Myth: Wukong|Game Science|Action RPG||Black Myth: Wukong
+Lorelei and the Laser Eyes|Simogo|Puzzle||Lorelei and the Laser Eyes
+Prince of Persia: The Lost Crown|Ubisoft Montpellier|Metroidvania||Prince of Persia: The Lost Crown
+Indiana Jones and the Great Circle|MachineGames|Action adventure||Indiana Jones and the Great Circle
+Thank Goodness You're Here!|Coal Supper|Comedy adventure||Thank Goodness You're Here!
+Pacific Drive|Ironwood Studios|Survival driving||Pacific Drive (video game)
+Tactical Breach Wizards|Suspicious Developments|Tactics||Tactical Breach Wizards
+Mouthwashing|Wrong Organ|Horror||Mouthwashing
+Frostpunk 2|11 bit studios|City builder||Frostpunk 2
+Warhammer 40,000: Space Marine 2|Saber Interactive|Action||Warhammer 40,000: Space Marine 2
+S.T.A.L.K.E.R. 2: Heart of Chornobyl|GSC Game World|FPS||S.T.A.L.K.E.R. 2: Heart of Chornobyl
+Nine Sols|Red Candle Games|Metroidvania||Nine Sols
+Neva|Nomada Studio|Platformer||Neva (video game)
+The Plucky Squire|All Possible Futures|Adventure||The Plucky Squire
+@2025
+Hades II|Supergiant Games|Roguelite||Hades II
+Escape from Tarkov|Battlestate Games|Extraction shooter||Escape from Tarkov
+Clair Obscur: Expedition 33|Sandfall Interactive|RPG||Clair Obscur: Expedition 33
+Kingdom Come: Deliverance II|Warhorse Studios|RPG||Kingdom Come: Deliverance II
+Blue Prince|Dogubomb|Puzzle||Blue Prince (video game)
+Hollow Knight: Silksong|Team Cherry|Metroidvania||Hollow Knight: Silksong
+Split Fiction|Hazelight Studios|Co-op adventure||Split Fiction
+Monster Hunter Wilds|Capcom|Action RPG||Monster Hunter Wilds
+Battlefield 6|Battlefield Studios|FPS||Battlefield 6
+Dispatch|AdHoc Studio|Adventure||Dispatch (video game)
+Ball x Pit|Kenny Sun|Roguelite||Ball x Pit
+Peak|Aggro Crab / Landfall|Co-op climbing||Peak (video game)
+Doom: The Dark Ages|id Software|FPS||Doom: The Dark Ages
+Civilization VII|Firaxis Games|4X strategy||Civilization VII
+Avowed|Obsidian Entertainment|RPG||Avowed
+Elden Ring Nightreign|FromSoftware|Co-op action||Elden Ring Nightreign
+The Alters|11 bit studios|Survival||The Alters
+Arc Raiders|Embark Studios|Extraction shooter||Arc Raiders
+Europa Universalis V|Paradox Tinto|Grand strategy||Europa Universalis V
+Anno 117: Pax Romana|Ubisoft Mainz|City builder||Anno 117: Pax Romana

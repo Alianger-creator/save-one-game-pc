@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Save One Game — PC Edition</title>
+<meta name="description" content="Save one PC game from every year, 1980 to 2025. Pick your favourites and see what everyone else saved.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0b0c10;--panel:#14161d;--panel2:#1b1e27;--line:#2a2e3a;
+  --ink:#ece8dc;--muted:#8d93a1;--gold:#f5c542;--gold2:#ffdf7a;--cyan:#46d3e6;
+  --pix:"Press Start 2P",ui-monospace,monospace;
+  --sans:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  --t:150ms;
+}
+*{box-sizing:border-box;min-width:0}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 var(--sans)}
+body{background-image:radial-gradient(rgba(255,255,255,.035) 1px,transparent 1px);background-size:4px 4px;min-height:100vh}
+button{font:inherit;color:inherit;cursor:pointer}
+.hidden{display:none!important}
+.wrap{max-width:1880px;margin:0 auto;padding:0 20px}
+
+/* top bar */
+.top{display:flex;align-items:center;gap:16px;padding:12px 0;flex-wrap:wrap}
+.logo{font:12px/1 var(--pix);letter-spacing:1px;color:var(--gold);background:none;border:0;padding:6px 0;white-space:nowrap}
+.logo span{color:var(--ink);font-size:9px;margin-left:8px;vertical-align:1px}
+.top .grow{flex:1}
+.count{font:10px/1 var(--pix);color:var(--muted)}
+.count b{color:var(--gold);font-weight:400}
+.btn{background:var(--panel2);border:2px solid var(--line);border-radius:4px;padding:8px 14px;font-weight:600;min-height:38px;transition:border-color var(--t),background var(--t)}
+.btn:hover{border-color:var(--muted)}
+.btn:focus-visible,.card:focus-visible,.tl button:focus-visible,input:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:#1a1405}
+.btn.gold:hover{background:var(--gold2);border-color:var(--gold2)}
+.btn:disabled{opacity:.35;cursor:default}
+.filter{background:var(--panel);border:2px solid var(--line);border-radius:4px;color:var(--ink);padding:8px 10px;font:inherit;width:190px;min-height:38px}
+
+/* timeline */
+.tl{display:grid;grid-template-columns:repeat(46,minmax(0,1fr));gap:3px;padding:4px 0 10px}
+.tl button{height:26px;border:0;border-radius:2px;background:var(--panel2);font:8px/1 var(--pix);color:var(--muted);padding:0;position:relative}
+.tl button:hover{background:#262a36;color:var(--ink)}
+.tl button.saved{background:#5b4a17;color:var(--gold2)}
+.tl button.cur{outline:2px solid var(--gold);outline-offset:1px;color:var(--ink)}
+.tl button.dec{margin-left:0}
+.tl .lab{display:block}
+
+/* year head */
+.yearhead{display:flex;align-items:center;gap:18px;padding:6px 0 4px}
+.arrow{width:44px;height:44px;border-radius:4px;background:var(--panel2);border:2px solid var(--line);font:14px/1 var(--pix)}
+.arrow:hover{border-color:var(--muted)}
+.yr{font:clamp(28px,3.4vw,44px)/1 var(--pix);color:var(--ink);letter-spacing:2px}
+.ysub{color:var(--muted);font-size:15px}
+.ysub b{color:var(--ink);font-weight:600}
+.yearhead .grow{flex:1}
+
+/* status bar: fixed height so the grid never jumps */
+.status{height:58px;display:flex;align-items:center;gap:14px;border-top:2px solid var(--line);border-bottom:2px solid var(--line);margin:6px 0 16px;padding:0 4px}
+.status .msg{flex:1;font-size:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.status .msg b{color:var(--gold)}
+.status .msg .dim{color:var(--muted)}
+.cont{font:11px/1 var(--pix);padding:12px 16px;opacity:0;pointer-events:none;transition:opacity var(--t)}
+.revealed .cont{opacity:1;pointer-events:auto;animation:pulse 1.2s ease-in-out infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 4px rgba(245,197,66,.25)}}
+.skip{background:none;border:0;color:var(--muted);text-decoration:underline;text-underline-offset:3px;padding:8px}
+.skip:hover{color:var(--ink)}
+
+/* grid */
+.grid{display:grid;grid-template-columns:repeat(var(--cols,10),minmax(0,210px));justify-content:center;gap:14px 12px;padding-bottom:28px}
+.grid.anim{animation:slide var(--t) ease-out}
+.grid.anim.back{animation-name:slideback}
+@keyframes slide{from{opacity:0;transform:translateX(18px)}to{opacity:1;transform:none}}
+@keyframes slideback{from{opacity:0;transform:translateX(-18px)}to{opacity:1;transform:none}}
+.card{position:relative;display:flex;flex-direction:column;background:var(--panel);border:3px solid transparent;border-radius:6px;padding:0;text-align:left;transition:transform var(--t),border-color var(--t),opacity var(--t)}
+.card:hover{transform:translateY(-3px);border-color:#4a5062}
+.art{position:relative;aspect-ratio:3/4;border-radius:3px 3px 0 0;overflow:hidden;background:#222 center/cover no-repeat}
+.art img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 200ms}
+.art img.ok{opacity:1}
+.art img.wide{object-fit:contain;background:#101218;padding:14% 8%}
+.tag{position:absolute;top:6px;left:6px;max-width:calc(100% - 40px);background:rgba(8,9,12,.82);color:var(--ink);font-size:11px;font-weight:600;padding:2px 6px;border-radius:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;z-index:2}
+.key{position:absolute;top:6px;right:6px;width:22px;height:22px;display:grid;place-items:center;background:rgba(8,9,12,.82);color:var(--cyan);font:9px/1 var(--pix);border-radius:3px;z-index:2}
+.meta{padding:7px 8px 9px;display:flex;flex-direction:column;gap:2px;flex:1}
+.ttl{font-weight:700;font-size:14px;line-height:1.2;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.4em}
+.credit{position:absolute;left:0;right:0;bottom:0;z-index:3;padding:22px 8px 7px;font-size:11.5px;font-weight:500;color:#e8e4d8;background:linear-gradient(transparent,rgba(0,0,0,.85));white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card.faded{opacity:.28}
+.card.faded:hover{opacity:1}
+
+/* reveal */
+.pct{position:absolute;inset:0;display:grid;place-items:center;z-index:3;font:clamp(15px,1.5vw,22px)/1 var(--pix);color:#fff;opacity:0;transition:opacity var(--t);pointer-events:none;
+  text-shadow:3px 0 #000,-3px 0 #000,0 3px #000,0 -3px #000,2px 2px #000,-2px -2px #000,2px -2px #000,-2px 2px #000}
+.revealed .pct{opacity:1}
+.revealed .card:not(.picked) .art::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,.38);z-index:2}
+.revealed .card:not(.picked):hover .art::after{background:rgba(0,0,0,.15)}
+.card.picked{border-color:var(--gold);box-shadow:0 0 0 2px var(--gold),0 0 22px rgba(245,197,66,.45)}
+.card.picked .pct{color:var(--gold2)}
+.card.picked .ttl{color:var(--gold2)}
+.pop{animation:pop 180ms ease-out}
+@keyframes pop{40%{transform:scale(1.04)}}
+
+/* start */
+.start{min-height:calc(100vh - 80px);display:grid;place-items:center;text-align:center;padding:40px 20px}
+.start h1{font:clamp(26px,5vw,58px)/1.2 var(--pix);color:var(--gold);margin:0 0 6px;text-shadow:5px 5px 0 #5b4a17}
+.start .ed{font:clamp(12px,1.6vw,18px)/1 var(--pix);color:var(--ink);margin:0 0 28px;letter-spacing:3px}
+@media (max-width:480px){.boxes i{width:54px;height:72px;font-size:7px}}
+.start p{max-width:560px;margin:0 auto 12px;color:#c9c5b9;font-size:17px}
+.start .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:26px 0 22px}
+.start .btn{font-size:16px;padding:12px 22px}
+.start .small{font-size:13px;color:var(--muted);max-width:620px}
+.keys{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;color:var(--muted);font-size:13px;margin-top:10px}
+kbd{font:9px/1 var(--pix);color:var(--cyan);background:var(--panel2);border:1px solid var(--line);border-radius:3px;padding:4px 5px}
+.boxes{display:flex;justify-content:center;gap:10px;margin:0 0 30px;perspective:600px}
+.boxes i{width:70px;height:94px;border-radius:3px;display:flex;align-items:flex-end;justify-content:center;padding-bottom:12px;font:9px/1 var(--pix);font-style:normal;color:#fff;text-shadow:2px 2px 0 rgba(0,0,0,.6);transform:rotateY(-18deg);box-shadow:6px 6px 0 rgba(0,0,0,.5)}
+
+/* vault */
+.vault h2{font:clamp(18px,2.2vw,26px)/1.2 var(--pix);color:var(--gold);margin:18px 0 6px}
+.vault .lead{color:var(--muted);margin:0 0 18px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:18px}
+.stat{background:var(--panel);border:2px solid var(--line);border-radius:6px;padding:12px 14px}
+.stat .k{font-size:12px;color:var(--muted);text-transform:none}
+.stat .v{font:15px/1.35 var(--pix);color:var(--ink);margin-top:8px;word-break:break-word}
+.stat .v small{display:block;font:500 13px/1.3 var(--sans);color:var(--muted);margin-top:6px}
+.vrow{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:10px;padding-bottom:40px}
+.vt{background:var(--panel);border:2px solid var(--line);border-radius:5px;padding:0;text-align:left;display:flex;flex-direction:column;overflow:hidden}
+.vt:hover{border-color:var(--muted)}
+.vt .art{border-radius:0}
+.vt .y{font:9px/1 var(--pix);color:var(--gold);padding:7px 7px 3px}
+.vt .n{font-size:12px;font-weight:600;padding:0 7px 2px;line-height:1.2;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.4em}
+.vt .p{font-size:11px;color:var(--muted);padding:0 7px 7px}
+.vt.empty .art{background:repeating-linear-gradient(45deg,#16181f 0 8px,#1b1e27 8px 16px)}
+.vt.empty .n{color:var(--muted);font-weight:500}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--gold);color:#1a1405;font-weight:700;padding:10px 16px;border-radius:4px;opacity:0;transition:opacity var(--t);pointer-events:none;z-index:9}
+.toast.on{opacity:1}
+.foot{color:var(--muted);font-size:12px;padding:6px 0 26px;display:flex;gap:16px;flex-wrap:wrap;justify-content:space-between}
+.foot a{color:var(--muted)}
+@media (max-width:900px){.tl{grid-template-columns:repeat(23,minmax(0,1fr))}.filter{width:140px}.status .msg{font-size:14px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<!-- START -->
+<section id="start" class="start">
+  <div>
+    <div class="boxes" aria-hidden="true">
+      <i style="background:linear-gradient(160deg,#c33,#611)">1980s</i><i style="background:linear-gradient(160deg,#2a7,#143)">1990s</i><i style="background:linear-gradient(160deg,#f5c542,#8a5d10)">2000s</i><i style="background:linear-gradient(160deg,#36c,#123)">2010s</i><i style="background:linear-gradient(160deg,#a4c,#324)">2020s</i>
+    </div>
+    <h1>SAVE ONE GAME</h1>
+    <div class="ed">PC EDITION · 1980–2025</div>
+    <p>Every year, one PC game gets saved. Pick yours, then see what everyone else saved.</p>
+    <p class="small">46 years and <span id="nGames">800</span> games: home computers in the early '80s, DOS and Windows from then on. Games are listed under the year they first came out on a computer. Early-access games count from their full release.</p>
+    <div class="row">
+      <button class="btn gold" id="bStart">Start at 1980</button>
+      <button class="btn hidden" id="bResume">Continue</button>
+      <button class="btn hidden" id="bVault1">My saved games</button>
+    </div>
+    <div class="keys"><span><kbd>1</kbd>–<kbd>0</kbd> <kbd>A</kbd>–<kbd>J</kbd> pick</span><span><kbd>←</kbd> <kbd>→</kbd> change year</span><span><kbd>Space</kbd> continue</span></div>
+  </div>
+</section>
+
+<!-- GAME -->
+<section id="game" class="hidden">
+  <div class="wrap">
+    <div class="top">
+      <button class="logo" id="home" title="Back to start">SAVE ONE GAME<span>PC EDITION</span></button>
+      <div class="grow"></div>
+      <div class="count"><b id="nSaved">0</b> / 46 SAVED</div>
+      <input class="filter" id="filter" type="search" placeholder="Filter this year…" autocomplete="off" aria-label="Filter games by title, developer or genre">
+      <button class="btn" id="bVault">My saved games</button>
+    </div>
+    <nav class="tl" id="tl" aria-label="Years"></nav>
+    <div class="yearhead">
+      <button class="arrow" id="prev" aria-label="Previous year">◀</button>
+      <div class="yr" id="yr">1980</div>
+      <div class="ysub" id="ysub"></div>
+      <div class="grow"></div>
+      <button class="arrow" id="next" aria-label="Next year">▶</button>
+    </div>
+    <div class="status" id="status">
+      <div class="msg" id="msg"></div>
+      <button class="skip" id="skip">Skip year</button>
+      <button class="btn gold cont" id="cont">CLICK TO CONTINUE →</button>
+    </div>
+    <div class="grid" id="grid"></div>
+    <div class="foot"><span>Box art from Wikipedia. If a cover can't be found, the game gets a drawn box instead.</span><span id="covnote" style="color:#ff8a7a"></span><span id="netnote"></span></div>
+  </div>
+</section>
+
+<!-- VAULT -->
+<section id="vault" class="hidden">
+  <div class="wrap vault">
+    <div class="top">
+      <button class="logo" id="home2" title="Back to start">SAVE ONE GAME<span>PC EDITION</span></button>
+    </div>
+    <h2>Your saved PC games</h2>
+    <p class="lead" id="vlead"></p>
+    <div class="stats" id="stats"></div>
+    <div class="vrow">
+      <button class="btn gold" id="bCopy">Copy text summary</button>
+      <button class="btn" id="bBack">Back to the game</button>
+      <button class="btn" id="bReset">Start over</button>
+      <span id="resetAsk" class="hidden" style="align-self:center">Clear all your picks? <button class="btn" id="bResetYes">Yes, clear</button> <button class="btn" id="bResetNo">No</button></span>
+    </div>
+    <div class="vgrid" id="vgrid"></div>
+  </div>
+</section>
+
+<!-- COVER CHECK (open the site with #covers) -->
+<section id="covers" class="hidden">
+  <div class="wrap vault">
+    <h2>Cover check</h2>
+    <p class="lead" id="clead">Looking up every game on Wikipedia…</p>
+    <div class="vrow"><button class="btn gold" id="bCopyMiss">Copy list</button><button class="btn" id="bCovBack">Back to start</button></div>
+    <textarea id="cout" readonly spellcheck="false" style="width:100%;height:220px;background:var(--panel);color:var(--muted);border:2px solid var(--line);border-radius:4px;font:12px/1.5 ui-monospace,monospace;padding:8px"></textarea>
+    <pre id="clist" style="white-space:pre-wrap;font:14px/1.6 var(--sans);color:var(--ink)"></pre>
+  </div>
+</section>
+
+<div class="toast" id="toast"></div>
+
+<script>
+{
+/* ---------- data ---------- */
+const DB = /*__DB__*/null;          // {year:[[id,title,dev,genre,platform,wikiTitle,override],...]}
+const Y0 = 1980, Y1 = 2025, YEARS = [];
+for (let y = Y0; y <= Y1; y++) YEARS.push(y);
+const KEYS = "1234567890ABCDEFGHIJ";
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const G = a => ({id:a[0], t:a[1], d:a[2], g:a[3], p:a[4], w:a[5] || a[1], o:a[6] || ""});
+const GAMES = {};
+for (const y of YEARS) GAMES[y] = DB[y].map(G);
+const TOTAL = YEARS.reduce((n, y) => n + GAMES[y].length, 0);
+
+/* ---------- storage (safe) ---------- */
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+const VK = "sogpc.vault.v1", CK = "sogpc.covers.v7", PK = "sogpc.pos.v1";
+let vault = store.get(VK, {});              // year -> {id, pct}
+let covers = store.get(CK, {});             // "year/id" -> url | {miss:timestamp}
+let voter = store.get("sogpc.voter", null);
+if (!voter) {
+  voter = (crypto.randomUUID ? crypto.randomUUID() : Date.now().toString(36) + Math.random().toString(36).slice(2) + Math.random().toString(36).slice(2));
+  store.set("sogpc.voter", voter);
+}
+const saveVault = () => store.set(VK, vault);
+let coverSaveTimer = 0;
+const saveCovers = () => { clearTimeout(coverSaveTimer); coverSaveTimer = setTimeout(() => store.set(CK, covers), 400); };
+
+/* ---------- fallback box art (drawn SVG) ---------- */
+function hash(s) { let h = 2166136261; for (const c of s) h = Math.imul(h ^ c.codePointAt(0), 16777619); return h >>> 0; }
+function wrap(text, max) {
+  const words = text.split(/\s+/), lines = []; let cur = "";
+  for (const w of words) { if ((cur + " " + w).trim().length > max && cur) { lines.push(cur); cur = w; } else cur = (cur + " " + w).trim(); }
+  if (cur) lines.push(cur);
+  return lines.slice(0, 5);
+}
+function fallbackArt(g, year) {
+  const h = hash(g.t), hue = h % 360, hue2 = (hue + 40 + (h >> 9) % 80) % 360;
+  const lines = wrap(g.t.toUpperCase(), year < 1990 ? 12 : 14);
+  const fs = lines.length > 3 ? 22 : 27;
+  const tx = lines.map((l, i) => `<text x="22" y="${150 + i * (fs + 8)}" font-size="${fs}">${esc(l)}</text>`).join("");
+  let deco;
+  if (year < 1990) deco = [0,1,2,3,4].map(i => `<rect x="0" y="${300 + i * 14}" width="300" height="7" fill="hsl(${(hue + i * 30) % 360} 80% 55%)"/>`).join("");
+  else if (year < 2000) deco = `<polygon points="0,290 300,220 300,300 0,370" fill="hsl(${hue2} 75% 50%)" opacity=".85"/><polygon points="0,370 300,300 300,316 0,386" fill="#fff" opacity=".7"/>`;
+  else deco = `<circle cx="240" cy="330" r="110" fill="hsl(${hue2} 70% 45%)" opacity=".5"/><circle cx="240" cy="330" r="60" fill="hsl(${hue2} 80% 60%)" opacity=".35"/>`;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400"><defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(${hue} 55% 30%)"/><stop offset="1" stop-color="hsl(${hue} 60% 10%)"/></linearGradient></defs><rect width="300" height="400" fill="url(#a)"/>${deco}<g fill="#fff" font-family="Arial Black,Arial,sans-serif" font-weight="900">${tx}</g></svg>`;
+  return "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
+}
+
+/* ---------- real box art from Wikipedia ---------- */
+const WIKI = "https://en.wikipedia.org/w/api.php";
+const ukey = (y, g) => y + "/" + g.id;
+function overrideUrl(o) {
+  if (o === "none") return "";
+  if (o.startsWith("file:")) return "https://en.wikipedia.org/wiki/Special:FilePath/" + encodeURIComponent(o.slice(5)) + "?width=500";
+  if (o.startsWith("url:")) return o.slice(4);
+  return "";
+}
+function knownCover(y, g) {
+  if (g.o) return overrideUrl(g.o);
+  const c = covers[ukey(y, g)];
+  return typeof c === "string" ? c : "";
+}
+function needsLookup(y, g) {
+  if (g.o) return false;
+  const c = covers[ukey(y, g)];
+  if (typeof c === "string") return false;
+  if (c && c.miss && Date.now() - c.miss < 3 * 864e5) return false;   // retry misses after 3 days
+  return true;
+}
+// Normal fetch first; if the browser blocks it (e.g. a page opened from a local file), fall back to JSONP, which needs no CORS.
+let useJsonp = false, jsonpN = 0, lookupError = "";
+function jsonp(url) {
+  return new Promise((res, rej) => {
+    const cb = "__sogcb" + (jsonpN++), s = document.createElement("script");
+    const done = () => { clearTimeout(t); delete window[cb]; s.remove(); };
+    const t = setTimeout(() => { done(); rej("timeout"); }, 15000);
+    window[cb] = d => { done(); res(d); };
+    s.onerror = () => { done(); rej("blocked"); };
+    s.src = url + "&callback=" + cb;
+    document.head.appendChild(s);
+  });
+}
+function noteLookup(msg) {
+  lookupError = msg;
+  const el = $("covnote"); if (el) el.textContent = msg ? "Cover lookup problem: " + msg : "";
+}
+// Wikipedia sometimes answers with an error message instead of data: treat that as a failure (shown on the page), never as "no cover"
+function checkReply(d) {
+  if (d && d.error && ["missingtitle","invalidtitle","pagecannotexist"].includes(d.error.code)) return {};
+  if (d && d.error) { const m = "Wikipedia said: " + (d.error.code || "") + " " + (d.error.info || ""); noteLookup(m); throw new Error(m); }
+  if (d && d.warnings) console.warn("Wikipedia warnings", d.warnings);
+  noteLookup(""); return d;
+}
+async function api(params) {
+  const qs = new URLSearchParams({format:"json", formatversion:"2", ...params});
+  if (!useJsonp) {
+    let d;
+    try {
+      const r = await fetch(WIKI + "?" + qs + "&origin=*");
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      d = await r.json();
+    } catch (e) { useJsonp = true; lookupError = "normal request failed (" + (e.message || e) + "), using backup"; console.warn(lookupError); }
+    if (d) return checkReply(d);
+  }
+  let d;
+  try { d = await jsonp(WIKI + "?" + qs); }
+  catch (e) { noteLookup("Wikipedia couldn't be reached (" + e + "). " + lookupError); throw e; }
+  return checkReply(d);
+}
+// English Wikipedia's quick image API skips non-free images (i.e. almost all box art),
+// so read the cover straight from the article's infobox and load it through Special:FilePath.
+const words = s => s.toLowerCase().normalize("NFKD").replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter(w => w.length > 2 && !["the","and","video","game"].includes(w));
+async function infoboxFile(title) {
+  const r = await api({action:"parse", page:title, prop:"text", section:"0", redirects:"1", disablelimitreport:"1"});
+  const html = (r.parse && r.parse.text) || "";
+  const i = html.indexOf('class="infobox');
+  if (i < 0) return "";
+  const m = html.slice(i).match(/href="\/wiki\/File:([^"#?]+)"/);
+  return m ? decodeURIComponent(m[1]) : "";
+}
+async function lookupCover(y, g) {
+  let f = await infoboxFile(g.w);
+  if (!f) {
+    // article missing, a disambiguation page, or no infobox image: search for the game instead
+    const r = await api({action:"query", list:"search", srsearch:`${g.t} ${y} video game`, srlimit:"5", srnamespace:"0"});
+    const want = words(g.t);
+    let tried = 0;
+    for (const hit of (r.query && r.query.search) || []) {
+      if (hit.title === g.w) continue;
+      const have = words(hit.title);
+      if (want.length && !want.some(w => have.includes(w))) continue;
+      f = await infoboxFile(hit.title);
+      if (f || ++tried >= 2) break;
+    }
+  }
+  return f ? overrideUrl("file:" + f) : "";
+}
+const pending = {};
+function resolveYear(y) {
+  if (pending[y]) return pending[y];
+  const todo = GAMES[y].filter(g => needsLookup(y, g));
+  if (!todo.length) return Promise.resolve();
+  pending[y] = (async () => {
+    let i = 0, failed = false;
+    const worker = async () => {
+      while (i < todo.length) {
+        const g = todo[i++];
+        try {
+          const src = await lookupCover(y, g);
+          covers[ukey(y, g)] = src || {miss: Date.now()};
+          if (src) applyCover(y, g);
+        } catch { failed = true; }          // network/API trouble: don't remember it as "no cover"
+      }
+    };
+    await Promise.all([worker(), worker()]);
+    saveCovers();
+    if (failed) delete pending[y];
+  })();
+  return pending[y];
+}
+function applyCover(y, g) {
+  const src = knownCover(y, g);
+  if (!src) return;
+  document.querySelectorAll(`img[data-u="${CSS.escape(ukey(y, g))}"]`).forEach(img => { if (img.getAttribute("src") !== src) setImg(img, src); });
+}
+function setImg(img, src) {
+  img.classList.remove("ok");
+  img.onload = () => { img.classList.toggle("wide", img.naturalWidth > img.naturalHeight * 0.95); img.classList.add("ok"); };
+  img.onerror = () => {
+    img.removeAttribute("src");
+    // a cached search result that has gone stale: forget it so it is looked up again next time
+    const u = img.dataset.u; if (typeof covers[u] === "string") { delete covers[u]; saveCovers(); }
+  };
+  img.src = src;
+}
+function artHTML(y, g, cls = "", inner = "") {
+  return `<div class="art ${cls}" style="background-image:url(&quot;${fallbackArt(g, y)}&quot;)"><img alt="" decoding="async" data-u="${esc(ukey(y, g))}">${inner}</div>`;
+}
+function hydrateImgs(root, y) {
+  root.querySelectorAll("img[data-u]").forEach(img => {
+    const [yy, id] = img.dataset.u.split("/");
+    const g = GAMES[yy].find(x => x.id === id);
+    const src = g && knownCover(+yy, g);
+    if (src) setImg(img, src);
+  });
+}
+function prefetch(y) {
+  if (!GAMES[y]) return;
+  resolveYear(y).then(() => GAMES[y].forEach(g => { const s = knownCover(y, g); if (s) { const im = new Image(); im.src = s; } }));
+}
+
+/* ---------- community votes (Netlify function) ---------- */
+const API = "/api/votes";
+const tallies = {};            // year -> {counts:{id:n}, total}
+let online = location.protocol.startsWith("http");
+async function getTally(y) {
+  if (!online) return null;
+  try {
+    const r = await fetch(`${API}?year=${y}`, {cache:"no-store"});
+    if (!r.ok) throw 0;
+    return tallies[y] = await r.json();
+  } catch { setOffline(); return null; }
+}
+async function sendVote(y, id) {
+  if (!online) return null;
+  try {
+    const r = await fetch(API, {method:"POST", headers:{"content-type":"application/json"}, body: JSON.stringify({year:y, game:id, voter})});
+    if (!r.ok) throw 0;
+    return tallies[y] = await r.json();
+  } catch { setOffline(); return null; }
+}
+function setOffline() {
+  online = false;
+  $("netnote").textContent = "Community stats are offline here, so your picks are only saved in this browser.";
+}
+const fmt = p => (Math.round(p * 10) / 10) + "%";
+
+/* ---------- game state ---------- */
+let idx = store.get(PK, 0);
+if (!(idx >= 0 && idx < YEARS.length)) idx = 0;
+let revealed = false, dir = 1;
+const year = () => YEARS[idx];
+
+function show(view) {
+  for (const v of ["start", "game", "vault", "covers"]) $(v).classList.toggle("hidden", v !== view);
+  window.scrollTo(0, 0);
+}
+function savedCount() { return Object.keys(vault).filter(y => GAMES[y] && GAMES[y].some(g => g.id === vault[y].id)).length; }
+
+function buildTimeline() {
+  $("tl").innerHTML = YEARS.map((y, i) => `<button data-i="${i}" title="${y}"><span class="lab">${String(y).slice(2)}</span></button>`).join("");
+}
+function paintTimeline() {
+  $("tl").querySelectorAll("button").forEach((b, i) => {
+    const y = YEARS[i];
+    b.classList.toggle("saved", !!vault[y]);
+    b.classList.toggle("cur", i === idx);
+    b.title = vault[y] ? `${y}: ${(GAMES[y].find(g => g.id === vault[y].id) || {}).t || ""}` : String(y);
+  });
+  $("nSaved").textContent = savedCount();
+}
+function layoutCols() {
+  const n = GAMES[year()].length, W = $("grid").clientWidth || window.innerWidth - 40, gap = 12;
+  const ideal = n <= 12 ? n : Math.ceil(n / 2);
+  const fit = Math.max(2, Math.floor((W + gap) / (128 + gap)));
+  $("grid").style.setProperty("--cols", Math.min(ideal, fit));
+}
+function renderYear() {
+  const y = year(), gs = GAMES[y];
+  store.set(PK, idx);
+  $("yr").textContent = y;
+  $("prev").disabled = idx === 0;
+  $("ysub").innerHTML = `<b>${gs.length}</b> games · pick one to save`;
+  const grid = $("grid");
+  grid.innerHTML = gs.map((g, i) => `
+    <button class="card" data-id="${esc(g.id)}" aria-label="${esc(g.t)}, ${esc(g.d)}, ${esc(g.p)}">
+      ${artHTML(y, g, "", `<span class="credit">${esc(g.d)} · ${esc(g.p)}</span>`)}
+      <span class="tag">${esc(g.g)}</span>
+      <span class="key">${KEYS[i] || ""}</span>
+      <span class="pct"></span>
+      <span class="meta"><span class="ttl">${esc(g.t)}</span></span>
+    </button>`).join("");
+  layoutCols();
+  grid.classList.remove("anim", "back"); void grid.offsetWidth;
+  grid.classList.add("anim"); if (dir < 0) grid.classList.add("back");
+  hydrateImgs(grid, y);
+  applyFilter();
+  paintTimeline();
+  const saved = vault[y];
+  if (saved && gs.some(g => g.id === saved.id)) {
+    setReveal(true, saved.id);
+    paintPct(tallies[y]);
+    getTally(y).then(t => { if (year() === y) paintPct(t); });
+  } else setReveal(false);
+  resolveYear(y).then(() => prefetch(YEARS[idx + 1]));
+}
+function setReveal(on, id) {
+  revealed = on;
+  $("status").classList.toggle("revealed", on);
+  $("grid").classList.toggle("revealed", on);
+  document.querySelectorAll(".card").forEach(c => c.classList.toggle("picked", on && c.dataset.id === id));
+  $("skip").classList.toggle("hidden", on);
+  $("cont").textContent = idx === YEARS.length - 1 ? "SEE MY VAULT →" : "CLICK TO CONTINUE →";
+  updateMsg();
+}
+function updateMsg() {
+  const y = year();
+  if (!revealed) {
+    $("msg").innerHTML = `<span class="dim">Which ${y} game do you save? Click a box or press its key.</span>`;
+    return;
+  }
+  const g = GAMES[y].find(x => x.id === vault[y].id);
+  const t = tallies[y];
+  const extra = !online ? "" : t ? ` <span class="dim">· ${t.total.toLocaleString("en")} ${t.total === 1 ? "vote" : "votes"} for ${y}</span>` : ` <span class="dim">· counting votes…</span>`;
+  $("msg").innerHTML = `Saved <b>${esc(g.t)}</b> for ${y}${extra}`;
+}
+function paintPct(t) {
+  const y = year();
+  document.querySelectorAll(".card").forEach(c => {
+    const el = c.querySelector(".pct");
+    if (!online) { el.textContent = ""; return; }
+    if (!t) { el.textContent = "…"; return; }
+    const n = t.counts[c.dataset.id] || 0;
+    el.textContent = t.total ? fmt(n / t.total * 100) : "0%";
+  });
+  if (t && vault[y]) {
+    const n = t.counts[vault[y].id] || 0;
+    vault[y].pct = t.total ? n / t.total * 100 : null;
+    saveVault();
+  }
+  updateMsg();
+}
+async function pick(id) {
+  const y = year();
+  if (revealed && vault[y] && vault[y].id === id) return next();   // second click on your pick moves on
+  vault[y] = {id};
+  saveVault();
+  setReveal(true, id);
+  const card = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
+  if (card) { card.classList.remove("pop"); void card.offsetWidth; card.classList.add("pop"); }
+  paintTimeline();
+  paintPct(null);
+  const t = await sendVote(y, id);
+  if (year() === y) paintPct(t);
+}
+function go(i, d) {
+  if (i < 0 || i >= YEARS.length) return;
+  dir = d || (i > idx ? 1 : -1);
+  idx = i;
+  $("filter").value = "";
+  renderYear();
+}
+function next() {
+  if (idx === YEARS.length - 1) { openVault(); return; }
+  go(idx + 1, 1);
+}
+function applyFilter() {
+  const q = $("filter").value.trim().toLowerCase();
+  const y = year();
+  document.querySelectorAll(".card").forEach(c => {
+    const g = GAMES[y].find(x => x.id === c.dataset.id);
+    c.classList.toggle("faded", !!q && !(`${g.t} ${g.d} ${g.g} ${g.p}`.toLowerCase().includes(q)));
+  });
+}
+
+/* ---------- vault ---------- */
+function decadeOf(y) { return Math.floor(y / 10) * 10 + "s"; }
+function openVault() {
+  show("vault");
+  const picks = YEARS.filter(y => vault[y] && GAMES[y].some(g => g.id === vault[y].id)).map(y => ({y, g: GAMES[y].find(g => g.id === vault[y].id), pct: vault[y].pct}));
+  $("vlead").textContent = picks.length === YEARS.length ? "All 46 years saved." : `${picks.length} of 46 years saved. Click an empty year to go back and pick one.`;
+  // Top era: the decade with the most saved games; a shared top spot shows as a tie
+  const per = {};
+  for (const p of picks) per[decadeOf(p.y)] = (per[decadeOf(p.y)] || 0) + 1;
+  const max = Math.max(0, ...Object.values(per));
+  const tops = Object.keys(per).filter(k => per[k] === max).sort();
+  let era = "—";
+  if (max) era = tops.length > 1 ? `Tie<small>${tops.join(" / ")} · ${max} each</small>` : `${tops[0]}<small>${max} saved</small>`;
+  const withPct = picks.filter(p => typeof p.pct === "number");
+  let main = "—", bold = "—", agree = "—";
+  if (withPct.length) {
+    const hi = withPct.reduce((a, b) => b.pct > a.pct ? b : a), lo = withPct.reduce((a, b) => b.pct < a.pct ? b : a);
+    main = `${esc(hi.g.t)}<small>${hi.y} · ${fmt(hi.pct)} saved it too</small>`;
+    bold = `${esc(lo.g.t)}<small>${lo.y} · only ${fmt(lo.pct)} picked it</small>`;
+    agree = `${fmt(withPct.reduce((s, p) => s + p.pct, 0) / withPct.length)}<small>average share of players who made the same pick</small>`;
+  }
+  const genres = {};
+  for (const p of picks) genres[p.g.g] = (genres[p.g.g] || 0) + 1;
+  const gmax = Math.max(0, ...Object.values(genres));
+  const gtops = Object.keys(genres).filter(k => genres[k] === gmax);
+  const genre = gmax ? (gtops.length > 1 && gmax === 1 ? "—" : `${esc(gtops.slice(0, 2).join(" / "))}<small>${gmax} saved</small>`) : "—";
+  $("stats").innerHTML = [
+    ["Years saved", `${picks.length} / 46`],
+    ["Top era", era],
+    ["Favourite genre", genre],
+    ["Most mainstream pick", main],
+    ["Boldest pick", bold],
+    ["Agreement", agree]
+  ].map(([k, v]) => `<div class="stat"><div class="k">${k}</div><div class="v">${v}</div></div>`).join("");
+  $("vgrid").innerHTML = YEARS.map((y, i) => {
+    const v = vault[y], g = v && GAMES[y].find(x => x.id === v.id);
+    if (!g) return `<button class="vt empty" data-i="${i}"><div class="art"></div><div class="y">${y}</div><div class="n">Not saved yet</div><div class="p">&nbsp;</div></button>`;
+    return `<button class="vt" data-i="${i}" title="${esc(g.t)}">${artHTML(y, g)}<div class="y">${y}</div><div class="n">${esc(g.t)}</div><div class="p">${typeof v.pct === "number" ? fmt(v.pct) + " of players" : "&nbsp;"}</div></button>`;
+  }).join("");
+  hydrateImgs($("vgrid"));
+  $("resetAsk").classList.add("hidden"); $("bReset").classList.remove("hidden");
+  // look up covers for saved games we have not resolved yet, a few years at a time
+  const ys = picks.map(p => p.y).filter(y => GAMES[y].some(g => needsLookup(y, g) && g.id === vault[y].id));
+  (async () => { for (const y of ys) { await resolveYear(y); } })();
+}
+function summaryText() {
+  const lines = YEARS.map(y => { const v = vault[y], g = v && GAMES[y].find(x => x.id === v.id); return g ? `${y} — ${g.t}` : null; }).filter(Boolean);
+  return `My Save One Game: PC Edition picks (${lines.length}/46)\n\n${lines.join("\n")}\n\n${location.href.split("#")[0]}`;
+}
+function toast(t) { const el = $("toast"); el.textContent = t; el.classList.add("on"); setTimeout(() => el.classList.remove("on"), 1600); }
+
+/* ---------- start screen ---------- */
+function paintStart() {
+  const n = savedCount();
+  $("bResume").classList.toggle("hidden", !n);
+  $("bVault1").classList.toggle("hidden", !n);
+  if (n) {
+    const firstOpen = YEARS.findIndex(y => !vault[y]);
+    $("bResume").textContent = firstOpen === -1 ? "Review my picks" : `Continue from ${YEARS[firstOpen]}`;
+    $("bResume").dataset.i = firstOpen === -1 ? 0 : firstOpen;
+  }
+}
+
+/* ---------- events ---------- */
+$("bStart").onclick = () => { show("game"); idx = 0; dir = 1; renderYear(); };
+$("bResume").onclick = () => { show("game"); idx = +$("bResume").dataset.i; dir = 1; renderYear(); };
+$("bVault1").onclick = openVault;
+$("bVault").onclick = openVault;
+$("home").onclick = $("home2").onclick = () => { paintStart(); show("start"); };
+$("bBack").onclick = () => { show("game"); renderYear(); };
+$("prev").onclick = () => go(idx - 1, -1);
+$("next").onclick = () => go(idx + 1, 1);
+$("cont").onclick = next;
+$("skip").onclick = next;
+$("tl").onclick = e => { const b = e.target.closest("button"); if (b) go(+b.dataset.i); };
+$("grid").onclick = e => { const c = e.target.closest(".card"); if (c) pick(c.dataset.id); };
+$("filter").oninput = applyFilter;
+$("vgrid").onclick = e => { const b = e.target.closest(".vt"); if (!b) return; show("game"); idx = +b.dataset.i; dir = 1; renderYear(); };
+$("bCopy").onclick = async () => { try { await navigator.clipboard.writeText(summaryText()); toast("Summary copied"); } catch { toast("Couldn't reach the clipboard"); } };
+$("bReset").onclick = () => { $("bReset").classList.add("hidden"); $("resetAsk").classList.remove("hidden"); };
+$("bResetNo").onclick = () => { $("resetAsk").classList.add("hidden"); $("bReset").classList.remove("hidden"); };
+$("bResetYes").onclick = () => { vault = {}; saveVault(); idx = 0; store.set(PK, 0); paintStart(); show("start"); };
+let rz; window.addEventListener("resize", () => { cancelAnimationFrame(rz); rz = requestAnimationFrame(() => { if (!$("game").classList.contains("hidden")) layoutCols(); }); });
+document.addEventListener("keydown", e => {
+  if (e.ctrlKey || e.metaKey || e.altKey) return;
+  const inField = e.target.matches && e.target.matches("input,textarea");
+  if (e.key === "Escape") { if (inField) { e.target.value = ""; applyFilter(); e.target.blur(); } else if (!$("vault").classList.contains("hidden")) { show("game"); renderYear(); } return; }
+  if (inField) return;
+  if ($("game").classList.contains("hidden")) { if (!$("start").classList.contains("hidden") && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); $("bResume").classList.contains("hidden") ? $("bStart").click() : $("bResume").click(); } return; }
+  if (e.key === "ArrowRight") { e.preventDefault(); go(idx + 1, 1); return; }
+  if (e.key === "ArrowLeft") { e.preventDefault(); go(idx - 1, -1); return; }
+  if ((e.key === " " || e.key === "Enter") && revealed) { e.preventDefault(); next(); return; }
+  if (e.key === "/") { e.preventDefault(); $("filter").focus(); return; }
+  const k = KEYS.indexOf(e.key.toUpperCase());
+  const gs = GAMES[year()];
+  if (k >= 0 && k < gs.length) { e.preventDefault(); pick(gs[k].id); }
+});
+
+// Cover check: look up every game that has no built-in cover yet and list the results to build in.
+let coverRunning = false;
+async function coverReport() {
+  show("covers");
+  if (coverRunning) return;
+  coverRunning = true;
+  $("clist").textContent = ""; $("cout").value = "";
+  let done = 0;
+  for (const y of YEARS) {
+    await resolveYear(y);
+    done++;
+    const miss = YEARS.slice(0, done).reduce((n, yy) => n + GAMES[yy].filter(g => !knownCover(yy, g)).length, 0);
+    $("clead").textContent = `Looking up covers: ${done} of 46 years checked · ${miss} without a cover so far`;
+  }
+  const found = [], miss = [];
+  for (const y of YEARS) for (const g of GAMES[y]) {
+    const u = knownCover(y, g);
+    if (u) found.push({y, g, u}); else miss.push(`${y} — ${g.t}`);
+  }
+  const lines = found.filter(f => !f.g.o).map(f => `${f.y}/${f.g.id}|${f.u}`);
+  $("cout").value = lines.join("\n");
+  $("clist").textContent = miss.length ? "Still missing:\n" + miss.join("\n") : "";
+  $("clead").textContent = `Done. ${found.length} of ${TOTAL} games have a cover (${lines.length} newly found), ${miss.length} are missing.` + (lookupError ? "  Lookup problem: " + lookupError : "") + "  Copy the list and send it to Claude.";
+  coverRunning = false;
+}
+$("bCopyMiss").onclick = async () => {
+  const text = $("cout").value + ($("clist").textContent ? "\n\n" + $("clist").textContent : "");
+  try { await navigator.clipboard.writeText(text); toast("List copied"); }
+  catch { $("cout").select(); toast("Press Ctrl+C to copy"); }
+};
+$("bCovBack").onclick = () => { history.replaceState(null, "", location.pathname); paintStart(); show("start"); };
+window.addEventListener("hashchange", () => { if (location.hash === "#covers") coverReport(); });
+
+$("nGames").textContent = TOTAL;
+buildTimeline();
+paintStart();
+if (location.hash === "#covers") coverReport();
+if (!online) setOffline();
+}
+</script>
+</body>
+</html>
