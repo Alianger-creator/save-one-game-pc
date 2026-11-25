@@ -301,6 +301,7 @@ Jagged Alliance 2|Sir-Tech|Tactics|Windows|Jagged Alliance 2
 Outcast|Appeal|Action adventure|Windows|Outcast (video game)
 Dungeon Keeper 2|Bullfrog|Strategy|Windows|Dungeon Keeper 2
 Final Fantasy VIII|Square|RPG||Final Fantasy VIII
+Pharaoh|Impressions Games|City builder||Pharaoh (video game)
 @2000
 Deus Ex|Ion Storm|Immersive sim||Deus Ex (video game)
 The Sims|Maxis|Life sim||The Sims (video game)
