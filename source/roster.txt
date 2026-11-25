@@ -572,6 +572,7 @@ Star Wars: The Old Republic|BioWare|MMORPG||Star Wars: The Old Republic
 Dead Space 2|Visceral Games|Survival horror||Dead Space 2
 Dark Souls|FromSoftware|Action RPG||Dark Souls (video game)
 L.A. Noire|Team Bondi|Action adventure||L.A. Noire
+Saints Row: The Third|Volition|Action adventure||Saints Row: The Third
 @2012
 XCOM: Enemy Unknown|Firaxis Games|Tactics||XCOM: Enemy Unknown
 FTL: Faster Than Light|Subset Games|Roguelike||FTL: Faster Than Light
