@@ -197,7 +197,9 @@ kbd{font:9px/1 var(--pix);color:var(--cyan);background:var(--panel2);border:1px 
     <p class="lead" id="vlead"></p>
     <div class="stats" id="stats"></div>
     <div class="vrow">
-      <button class="btn gold" id="bCopy">Copy text summary</button>
+      <button class="btn gold" id="bImg">Save image</button>
+      <button class="btn" id="bImgCopy">Copy image</button>
+      <button class="btn" id="bCopy">Copy text summary</button>
       <button class="btn" id="bBack">Back to the game</button>
       <button class="btn" id="bReset">Start over</button>
       <span id="resetAsk" class="hidden" style="align-self:center">Clear all your picks? <button class="btn" id="bResetYes">Yes, clear</button> <button class="btn" id="bResetNo">No</button></span>
@@ -616,6 +618,134 @@ function summaryText() {
   return `My Save One Game: PC Edition picks (${lines.length}/46)\n\n${lines.join("\n")}\n\n${location.href.split("#")[0]}`;
 }
 function toast(t) { const el = $("toast"); el.textContent = t; el.classList.add("on"); setTimeout(() => el.classList.remove("on"), 1600); }
+
+/* ---------- shareable image (1920x1080) ---------- */
+const SW = 1920, SH = 1080;
+function loadImg(src, cors) {
+  return new Promise(res => {
+    const im = new Image(); if (cors) im.crossOrigin = "anonymous";
+    const t = setTimeout(() => res(null), 10000);
+    im.onload = () => { clearTimeout(t); res(im); }; im.onerror = () => { clearTimeout(t); res(null); };
+    im.src = src;
+  });
+}
+// Special:FilePath redirects don't allow use in a canvas, so ask the API for the direct upload.wikimedia.org thumbnail.
+async function directCoverUrls(picks) {
+  const out = {}, files = {};
+  for (const p of picks) {
+    const u = knownCover(p.y, p.g); if (!u) continue;
+    const m = u.match(/Special:FilePath\/([^?]+)/);
+    if (m) files["File:" + decodeURIComponent(m[1]).replace(/_/g, " ")] = p.y; else out[p.y] = u;
+  }
+  const titles = Object.keys(files);
+  for (let i = 0; i < titles.length; i += 45) {
+    try {
+      const r = await api({action:"query", titles: titles.slice(i, i + 45).join("|"), prop:"imageinfo", iiprop:"url", iiurlwidth:"500"});
+      const q = r.query || {}, back = {};
+      for (const n of q.normalized || []) back[n.to] = n.from;
+      for (const pg of q.pages || []) {
+        const ii = pg.imageinfo && pg.imageinfo[0], from = back[pg.title] || pg.title;
+        if (ii && files[from] != null) out[files[from]] = ii.thumburl || ii.url;
+      }
+    } catch (e) { console.warn("image lookup failed", e); }
+  }
+  return out;
+}
+function rrect(c, x, y, w, h, r) { c.beginPath(); c.moveTo(x + r, y); c.arcTo(x + w, y, x + w, y + h, r); c.arcTo(x + w, y + h, x, y + h, r); c.arcTo(x, y + h, x, y, r); c.arcTo(x, y, x + w, y, r); c.closePath(); }
+function fitText(c, t, w) { if (c.measureText(t).width <= w) return t; while (t.length > 1 && c.measureText(t + "…").width > w) t = t.slice(0, -1); return t.trimEnd() + "…"; }
+function wrap2(c, t, w) {
+  const words = t.split(" "); let l1 = "";
+  while (words.length && c.measureText((l1 ? l1 + " " : "") + words[0]).width <= w) l1 += (l1 ? " " : "") + words.shift();
+  if (!l1) return [fitText(c, t, w)];
+  return words.length ? [l1, fitText(c, words.join(" "), w)] : [l1];
+}
+function statsLine(picks) {
+  const per = {}, gen = {};
+  for (const p of picks) { per[decadeOf(p.y)] = (per[decadeOf(p.y)] || 0) + 1; gen[p.g.g] = (gen[p.g.g] || 0) + 1; }
+  const parts = [`${picks.length} / 46 years saved`];
+  const max = Math.max(0, ...Object.values(per));
+  if (max) { const t = Object.keys(per).filter(k => per[k] === max).sort(); parts.push("Top era: " + (t.length > 1 ? "tie, " + t.join(" / ") : t[0])); }
+  const gm = Math.max(0, ...Object.values(gen));
+  if (gm > 1) parts.push("Favourite genre: " + Object.keys(gen).filter(k => gen[k] === gm).slice(0, 2).join(" / "));
+  const wp = picks.filter(p => typeof p.pct === "number");
+  if (wp.length) parts.push("Agreement: " + fmt(wp.reduce((s, p) => s + p.pct, 0) / wp.length));
+  return parts.join("   ·   ");
+}
+async function makeShareImage() {
+  const picks = YEARS.filter(y => vault[y] && GAMES[y].some(g => g.id === vault[y].id)).map(y => ({y, g: GAMES[y].find(g => g.id === vault[y].id), pct: vault[y].pct}));
+  const PIX = '"Press Start 2P", monospace', SANS = '"IBM Plex Sans Condensed", "Arial Narrow", sans-serif';
+  try { await Promise.all([document.fonts.load('16px "Press Start 2P"'), document.fonts.load('600 16px "IBM Plex Sans Condensed"'), document.fonts.load('16px "IBM Plex Sans Condensed"')]); } catch {}
+  const direct = online ? await directCoverUrls(picks) : {};
+  const imgs = {};
+  await Promise.all(picks.map(async p => {
+    let im = direct[p.y] ? await loadImg(direct[p.y], true) : null;
+    if (!im) im = await loadImg(fallbackArt(p.g, p.y), false);
+    imgs[p.y] = im;
+  }));
+  const cv = document.createElement("canvas"); cv.width = SW; cv.height = SH;
+  const c = cv.getContext("2d");
+  c.fillStyle = "#0b0c10"; c.fillRect(0, 0, SW, SH);
+  // header
+  c.textBaseline = "alphabetic";
+  c.fillStyle = "#f5c542"; c.font = `28px ${PIX}`; c.fillText("SAVE ONE GAME", 40, 62);
+  const lw = c.measureText("SAVE ONE GAME").width;
+  c.fillStyle = "#ece8dc"; c.font = `16px ${PIX}`; c.fillText("PC EDITION", 40 + lw + 18, 62);
+  c.fillStyle = "#8d93a1"; c.font = `20px ${SANS}`; c.fillText(fitText(c, statsLine(picks), SW - 80), 40, 98);
+  const host = online ? location.host : "";
+  if (host) { c.fillStyle = "#46d3e6"; c.font = `14px ${PIX}`; c.textAlign = "right"; c.fillText(host, SW - 40, 62); c.textAlign = "left"; }
+  // grid: 12 x 4, chronological; the last two cells hold the link
+  const cols = 12, M = 40, GX = 12, GY = 14, top = 122, bottom = 24;
+  const tw = (SW - 2 * M - (cols - 1) * GX) / cols, th = (SH - top - bottom - 3 * GY) / 4, ah = th - 60;
+  YEARS.forEach((y, i) => {
+    const x = M + (i % cols) * (tw + GX), yy = top + Math.floor(i / cols) * (th + GY);
+    const p = picks.find(q => q.y === y);
+    rrect(c, x, yy, tw, th, 6); c.fillStyle = "#14161d"; c.fill();
+    if (!p) {
+      c.save(); c.setLineDash([6, 6]); c.strokeStyle = "#2a2e3a"; c.lineWidth = 2; rrect(c, x + 1, yy + 1, tw - 2, th - 2, 6); c.stroke(); c.restore();
+      c.fillStyle = "#8d93a1"; c.font = `14px ${PIX}`; c.textAlign = "center"; c.fillText(String(y), x + tw / 2, yy + ah / 2 + 7);
+      c.font = `15px ${SANS}`; c.fillText("not saved", x + tw / 2, yy + ah / 2 + 34); c.textAlign = "left"; return;
+    }
+    // cover, letterboxed inside the art area
+    c.save(); rrect(c, x, yy, tw, ah, 6); c.clip(); c.fillStyle = "#08090c"; c.fillRect(x, yy, tw, ah);
+    const im = imgs[y];
+    if (im) {
+      const iw = im.naturalWidth || im.width || 300, ih = im.naturalHeight || im.height || 400;
+      const sc = Math.min(tw / iw, ah / ih), dw = iw * sc, dh = ih * sc;
+      try { c.drawImage(im, x + (tw - dw) / 2, yy + (ah - dh) / 2, dw, dh); } catch {}
+    }
+    c.restore();
+    // year badge
+    c.font = `11px ${PIX}`; const bw = c.measureText(String(y)).width + 12;
+    c.fillStyle = "rgba(8,9,12,.85)"; rrect(c, x + 5, yy + 5, bw, 20, 3); c.fill();
+    c.fillStyle = "#f5c542"; c.fillText(String(y), x + 11, yy + 20);
+    // title (two lines) and share
+    c.fillStyle = "#ece8dc"; c.font = `600 15px ${SANS}`;
+    wrap2(c, p.g.t, tw - 12).forEach((ln, k) => c.fillText(ln, x + 6, yy + ah + 19 + k * 18));
+    if (typeof p.pct === "number") { c.fillStyle = "#8d93a1"; c.font = `13px ${SANS}`; c.fillText(fmt(p.pct) + " of players", x + 6, yy + th - 7); }
+  });
+  const lx = M + (YEARS.length % cols) * (tw + GX), ly = top + Math.floor(YEARS.length / cols) * (th + GY), lwid = SW - M - lx;
+  if (lwid > 100) {
+    rrect(c, lx, ly, lwid, th, 6); c.fillStyle = "#14161d"; c.fill(); c.strokeStyle = "#f5c542"; c.lineWidth = 2; rrect(c, lx + 1, ly + 1, lwid - 2, th - 2, 6); c.stroke();
+    c.textAlign = "center"; c.fillStyle = "#f5c542"; c.font = `13px ${PIX}`; c.fillText("WHICH ONES", lx + lwid / 2, ly + th / 2 - 22); c.fillText("WOULD YOU SAVE?", lx + lwid / 2, ly + th / 2 + 2);
+    if (host) { c.fillStyle = "#46d3e6"; c.font = `600 16px ${SANS}`; c.fillText(fitText(c, host, lwid - 16), lx + lwid / 2, ly + th / 2 + 36); }
+    c.textAlign = "left";
+  }
+  return new Promise(res => cv.toBlob(b => res(b), "image/png"));
+}
+async function withImage(btn, fn) {
+  const label = btn.textContent; btn.disabled = true; btn.textContent = "Making image…";
+  try { const blob = await makeShareImage(); if (!blob) throw new Error("no image"); await fn(blob); }
+  catch (e) { console.warn(e); toast("Couldn't make the image"); }
+  finally { btn.disabled = false; btn.textContent = label; }
+}
+$("bImg").onclick = () => withImage($("bImg"), async blob => {
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "save-one-game-pc.png";
+  document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 5000); toast("Image saved");
+});
+$("bImgCopy").classList.toggle("hidden", !(window.ClipboardItem && navigator.clipboard && navigator.clipboard.write));
+$("bImgCopy").onclick = () => withImage($("bImgCopy"), async blob => {
+  try { await navigator.clipboard.write([new ClipboardItem({"image/png": blob})]); toast("Image copied"); } catch { toast("Couldn't reach the clipboard"); }
+});
 
 /* ---------- start screen ---------- */
 function paintStart() {
