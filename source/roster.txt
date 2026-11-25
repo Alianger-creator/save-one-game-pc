@@ -245,6 +245,7 @@ The Settlers II|Blue Byte|City builder|MS-DOS|The Settlers II
 Syndicate Wars|Bullfrog|Tactics|MS-DOS|Syndicate Wars
 Grand Prix 2|Geoff Crammond / MicroProse|Racing|MS-DOS|Grand Prix 2
 Lords of the Realm II|Impressions Games|Strategy|MS-DOS / Windows|Lords of the Realm II
+Resident Evil|Capcom|Survival horror||Resident Evil (1996 video game)
 @1997
 Fallout|Interplay|RPG|Windows / MS-DOS|Fallout (video game)
 Age of Empires|Ensemble Studios|RTS|Windows|Age of Empires (video game)
@@ -262,6 +263,7 @@ Riven|Cyan|Adventure|Mac / Windows|Riven
 Theme Hospital|Bullfrog|Business sim|MS-DOS / Windows|Theme Hospital
 Shadow Warrior|3D Realms|FPS|MS-DOS|Shadow Warrior (1997 video game)
 MDK|Shiny Entertainment|Shooter|MS-DOS / Windows|MDK (video game)
+Final Fantasy VII|Square|RPG||Final Fantasy VII
 @1998
 Half-Life|Valve|FPS|Windows|Half-Life (video game)
 StarCraft|Blizzard Entertainment|RTS|Windows|StarCraft (video game)
@@ -279,6 +281,8 @@ Starsiege: Tribes|Dynamix|FPS|Windows|Starsiege: Tribes
 Descent: FreeSpace – The Great War|Volition|Space combat|Windows|Descent: FreeSpace – The Great War
 Anno 1602|Max Design|City builder|Windows|Anno 1602
 Myth II: Soulblighter|Bungie|Tactics|Windows / Mac|Myth II: Soulblighter
+Metal Gear Solid|Konami|Stealth||Metal Gear Solid (1998 video game)
+Resident Evil 2|Capcom|Survival horror||Resident Evil 2
 @1999
 Planescape: Torment|Black Isle Studios|RPG|Windows|Planescape: Torment
 System Shock 2|Irrational Games / Looking Glass|Immersive sim|Windows|System Shock 2
@@ -296,6 +300,7 @@ Command & Conquer: Tiberian Sun|Westwood Studios|RTS|Windows|Command & Conquer: 
 Jagged Alliance 2|Sir-Tech|Tactics|Windows|Jagged Alliance 2
 Outcast|Appeal|Action adventure|Windows|Outcast (video game)
 Dungeon Keeper 2|Bullfrog|Strategy|Windows|Dungeon Keeper 2
+Final Fantasy VIII|Square|RPG||Final Fantasy VIII
 @2000
 Deus Ex|Ion Storm|Immersive sim||Deus Ex (video game)
 The Sims|Maxis|Life sim||The Sims (video game)
@@ -338,6 +343,10 @@ IL-2 Sturmovik|1C:Maddox Games|Flight sim||IL-2 Sturmovik (video game)|file:IL-2
 Wizardry 8|Sir-Tech Canada|RPG||Wizardry 8
 Stronghold|Firefly Studios|Castle sim||Stronghold (2001 video game)
 Anachronox|Ion Storm|RPG||Anachronox
+Grand Theft Auto III|DMA Design|Action adventure||Grand Theft Auto III
+Halo: Combat Evolved|Bungie|FPS||Halo: Combat Evolved
+Silent Hill 2|Konami|Survival horror||Silent Hill 2
+Metal Gear Solid 2: Sons of Liberty|Konami|Stealth||Metal Gear Solid 2: Sons of Liberty
 @2002
 Warcraft III: Reign of Chaos|Blizzard Entertainment|RTS||Warcraft III: Reign of Chaos
 The Elder Scrolls III: Morrowind|Bethesda Game Studios|RPG||The Elder Scrolls III: Morrowind
@@ -359,6 +368,8 @@ Medieval: Total War|Creative Assembly|Strategy||Medieval: Total War
 Arx Fatalis|Arkane Studios|RPG||Arx Fatalis
 RollerCoaster Tycoon 2|Chris Sawyer|Business sim||RollerCoaster Tycoon 2
 Soldier of Fortune II: Double Helix|Raven Software|FPS||Soldier of Fortune II: Double Helix
+Grand Theft Auto: Vice City|Rockstar North|Action adventure||Grand Theft Auto: Vice City
+Tom Clancy's Splinter Cell|Ubisoft Montreal|Stealth||Tom Clancy's Splinter Cell (video game)
 @2003
 Star Wars: Knights of the Old Republic|BioWare|RPG||Star Wars: Knights of the Old Republic (video game)
 Call of Duty|Infinity Ward|FPS||Call of Duty (video game)
@@ -377,7 +388,7 @@ Command & Conquer: Generals|EA Pacific|RTS||Command & Conquer: Generals
 Hidden & Dangerous 2|Illusion Softworks|Tactical shooter||Hidden & Dangerous 2
 The Temple of Elemental Evil|Troika Games|RPG||The Temple of Elemental Evil (video game)
 Vietcong|Pterodon / Illusion Softworks|Tactical shooter||Vietcong (video game)
-Postal 2|Running with Scissors|FPS||Postal 2
+Prince of Persia: The Sands of Time|Ubisoft Montreal|Action adventure||Prince of Persia: The Sands of Time
 SpellForce: The Order of Dawn|Phenomic|RTS / RPG||SpellForce: The Order of Dawn
 Lock On: Modern Air Combat|Eagle Dynamics|Flight sim||Lock On: Modern Air Combat
 @2004
@@ -422,6 +433,7 @@ Act of War: Direct Action|Eugen Systems|RTS||Act of War: Direct Action
 Need for Speed: Most Wanted|EA Black Box|Racing||Need for Speed: Most Wanted (2005 video game)
 TrackMania Sunrise|Nadeo|Racing||TrackMania Sunrise
 Tom Clancy's Splinter Cell: Chaos Theory|Ubisoft Montreal|Stealth||Tom Clancy's Splinter Cell: Chaos Theory
+Resident Evil 4|Capcom|Survival horror||Resident Evil 4
 @2006
 The Elder Scrolls IV: Oblivion|Bethesda Game Studios|RPG||The Elder Scrolls IV: Oblivion
 Half-Life 2: Episode One|Valve|FPS||Half-Life 2: Episode One
@@ -443,6 +455,8 @@ Rise of Nations: Rise of Legends|Big Huge Games|RTS||Rise of Nations: Rise of Le
 Sid Meier's Railroads!|Firaxis Games|Business sim||Sid Meier's Railroads!
 Garry's Mod|Facepunch Studios|Sandbox||Garry's Mod
 GTR 2 – FIA GT Racing Game|SimBin / Blimey! Games|Racing sim||GTR 2 – FIA GT Racing Game
+Gears of War|Epic Games|Shooter||Gears of War (video game)
+Ōkami|Clover Studio|Action adventure||Ōkami
 @2007
 Portal|Valve|Puzzle||Portal (video game)
 Team Fortress 2|Valve|FPS||Team Fortress 2
@@ -464,6 +478,7 @@ Overlord|Triumph Studios|Action||Overlord (2007 video game)
 Peggle|PopCap Games|Puzzle||Peggle
 Europa Universalis III|Paradox Interactive|Grand strategy||Europa Universalis III
 Sam & Max Season One|Telltale Games|Adventure||Sam & Max Save the World
+Mass Effect|BioWare|RPG||Mass Effect (video game)
 @2008
 Left 4 Dead|Valve|FPS||Left 4 Dead
 Fallout 3|Bethesda Game Studios|RPG||Fallout 3
@@ -473,7 +488,7 @@ Sins of a Solar Empire|Ironclad Games|4X strategy||Sins of a Solar Empire
 Crysis Warhead|Crytek|FPS||Crysis Warhead
 Mount & Blade|TaleWorlds|Action RPG||Mount & Blade
 Audiosurf|Dylan Fitterer|Music||Audiosurf
-Age of Conan: Hyborian Adventures|Funcom|MMORPG||Age of Conan
+Braid|Number None|Puzzle platformer||Braid (video game)
 Warhammer Online: Age of Reckoning|Mythic Entertainment|MMORPG||Warhammer Online: Age of Reckoning
 Far Cry 2|Ubisoft Montreal|FPS||Far Cry 2
 S.T.A.L.K.E.R.: Clear Sky|GSC Game World|FPS||S.T.A.L.K.E.R.: Clear Sky
@@ -506,6 +521,7 @@ Zeno Clash|ACE Team|Action||Zeno Clash
 S.T.A.L.K.E.R.: Call of Pripyat|GSC Game World|FPS||S.T.A.L.K.E.R.: Call of Pripyat
 ArmA 2|Bohemia Interactive|Military sim||ARMA 2
 The Sims 3|The Sims Studio|Life sim||The Sims 3
+Bayonetta|PlatinumGames|Action||Bayonetta (video game)
 @2010
 StarCraft II: Wings of Liberty|Blizzard Entertainment|RTS||StarCraft II: Wings of Liberty
 Mass Effect 2|BioWare|RPG||Mass Effect 2
@@ -524,9 +540,11 @@ BioShock 2|2K Marin|Shooter||BioShock 2
 Alien Swarm|Valve|Shooter||Alien Swarm
 World of Tanks|Wargaming|Online action||World of Tanks
 Sam & Max: The Devil's Playhouse|Telltale Games|Adventure||Sam & Max: The Devil's Playhouse
-Revenge of the Titans|Puppygames|Tower defense||Revenge of the Titans
+Red Dead Redemption|Rockstar San Diego|Action adventure||Red Dead Redemption
 Victoria II|Paradox Interactive|Grand strategy||Victoria II
 Just Cause 2|Avalanche Studios|Action||Just Cause 2
+Limbo|Playdead|Puzzle platformer||Limbo (video game)
+Alan Wake|Remedy Entertainment|Action thriller||Alan Wake
 @2011
 The Elder Scrolls V: Skyrim|Bethesda Game Studios|RPG||The Elder Scrolls V: Skyrim
 Portal 2|Valve|Puzzle||Portal 2
@@ -548,6 +566,7 @@ To the Moon|Freebird Games|Adventure||To the Moon
 Orcs Must Die!|Robot Entertainment|Tower defense||Orcs Must Die!
 Star Wars: The Old Republic|BioWare|MMORPG||Star Wars: The Old Republic
 Serious Sam 3: BFE|Croteam|FPS||Serious Sam 3: BFE
+Dark Souls|FromSoftware|Action RPG||Dark Souls (video game)
 @2012
 XCOM: Enemy Unknown|Firaxis Games|Tactics||XCOM: Enemy Unknown
 FTL: Faster Than Light|Subset Games|Roguelike||FTL: Faster Than Light
@@ -569,6 +588,8 @@ Counter-Strike: Global Offensive|Valve / Hidden Path|Tactical shooter||Counter-S
 Natural Selection 2|Unknown Worlds|FPS / RTS||Natural Selection 2
 Endless Space|Amplitude Studios|4X strategy||Endless Space
 Max Payne 3|Rockstar Studios|Shooter||Max Payne 3
+Journey|Thatgamecompany|Adventure||Journey (2012 video game)
+Fez|Polytron Corporation|Puzzle platformer||Fez (video game)
 @2013
 Dota 2|Valve|MOBA||Dota 2
 Papers, Please|Lucas Pope|Puzzle||Papers, Please
@@ -632,6 +653,7 @@ Invisible, Inc.|Klei Entertainment|Tactics||Invisible, Inc.
 Hotline Miami 2: Wrong Number|Dennaton Games|Action||Hotline Miami 2: Wrong Number
 Dying Light|Techland|Survival horror||Dying Light
 Dirt Rally|Codemasters|Racing||Dirt Rally
+Yakuza 0|Ryu Ga Gotoku Studio|Action adventure||Yakuza 0
 @2016
 Stardew Valley|ConcernedApe|Farming sim||Stardew Valley
 Doom|id Software|FPS||Doom (2016 video game)
@@ -653,6 +675,9 @@ Hyper Light Drifter|Heart Machine|Action RPG||Hyper Light Drifter
 Total War: Warhammer|Creative Assembly|Strategy||Total War: Warhammer
 Stellaris|Paradox Development Studio|Grand strategy||Stellaris (video game)
 Battlefield 1|DICE|FPS||Battlefield 1
+Dark Souls III|FromSoftware|Action RPG||Dark Souls III
+Uncharted 4: A Thief's End|Naughty Dog|Action adventure||Uncharted 4: A Thief's End
+Persona 5|Atlus|RPG||Persona 5
 @2017
 Hollow Knight|Team Cherry|Metroidvania||Hollow Knight
 Divinity: Original Sin II|Larian Studios|RPG||Divinity: Original Sin II
@@ -674,6 +699,7 @@ Rain World|Videocult|Survival platformer||Rain World
 Tacoma|The Fullbright Company|Adventure||Tacoma (video game)
 Resident Evil 7: Biohazard|Capcom|Survival horror||Resident Evil 7: Biohazard
 Ruiner|Reikon Games|Action||Ruiner (video game)
+Horizon Zero Dawn|Guerrilla Games|Action RPG||Horizon Zero Dawn
 @2018
 Celeste|Maddy Makes Games|Platformer||Celeste (video game)
 Into the Breach|Subset Games|Tactics||Into the Breach
@@ -695,6 +721,9 @@ Gris|Nomada Studio|Platformer||Gris (video game)
 Rust|Facepunch Studios|Survival||Rust (video game)
 Two Point Hospital|Two Point Studios|Business sim||Two Point Hospital
 Bad North|Plausible Concept|Strategy||Bad North
+God of War|Santa Monica Studio|Action adventure||God of War (2018 video game)
+Red Dead Redemption 2|Rockstar Studios|Action adventure||Red Dead Redemption 2
+Marvel's Spider-Man|Insomniac Games|Action adventure||Spider-Man (2018 video game)
 @2019
 Disco Elysium|ZA/UM|RPG||Disco Elysium
 Slay the Spire|Mega Crit|Deckbuilder||Slay the Spire
@@ -716,6 +745,7 @@ Planet Zoo|Frontier Developments|Business sim||Planet Zoo
 Apex Legends|Respawn Entertainment|Battle royale||Apex Legends
 Ape Out|Gabe Cuzzillo|Action||Ape Out
 Star Wars Jedi: Fallen Order|Respawn Entertainment|Action adventure||Star Wars Jedi: Fallen Order
+Death Stranding|Kojima Productions|Action||Death Stranding
 @2020
 Hades|Supergiant Games|Roguelite||Hades (video game)
 Half-Life: Alyx|Valve|VR FPS||Half-Life: Alyx
@@ -737,6 +767,8 @@ Genshin Impact|miHoYo|Action RPG||Genshin Impact
 Ghostrunner|One More Level|Action||Ghostrunner
 Star Wars: Squadrons|Motive Studio|Space combat||Star Wars: Squadrons
 Desperados III|Mimimi Games|Tactics||Desperados III
+Ghost of Tsushima|Sucker Punch Productions|Action adventure||Ghost of Tsushima
+Final Fantasy VII Remake|Square Enix|Action RPG||Final Fantasy VII Remake
 @2021
 Inscryption|Daniel Mullins Games|Deckbuilder||Inscryption
 Loop Hero|Four Quarters|Roguelike||Loop Hero
@@ -779,6 +811,7 @@ Norco|Geography of Robots|Adventure||Norco (video game)
 Immortality|Half Mermaid|Mystery||Immortality (video game)
 Mount & Blade II: Bannerlord|TaleWorlds|Action RPG||Mount & Blade II: Bannerlord
 Trombone Champ|Holy Wow Studios|Rhythm||Trombone Champ
+The Last of Us Part I|Naughty Dog|Action adventure||The Last of Us Part I
 @2023
 Baldur's Gate 3|Larian Studios|RPG||Baldur's Gate 3
 Starfield|Bethesda Game Studios|RPG||Starfield (video game)
