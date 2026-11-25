@@ -654,6 +654,7 @@ Hotline Miami 2: Wrong Number|Dennaton Games|Action||Hotline Miami 2: Wrong Numb
 Dying Light|Techland|Survival horror||Dying Light
 Dirt Rally|Codemasters|Racing||Dirt Rally
 Yakuza 0|Ryu Ga Gotoku Studio|Action adventure||Yakuza 0
+Tom Clancy's Rainbow Six Siege|Ubisoft Montreal|Tactical shooter||Tom Clancy's Rainbow Six Siege
 @2016
 Stardew Valley|ConcernedApe|Farming sim||Stardew Valley
 Doom|id Software|FPS||Doom (2016 video game)
@@ -678,6 +679,7 @@ Battlefield 1|DICE|FPS||Battlefield 1
 Dark Souls III|FromSoftware|Action RPG||Dark Souls III
 Uncharted 4: A Thief's End|Naughty Dog|Action adventure||Uncharted 4: A Thief's End
 Persona 5|Atlus|RPG||Persona 5
+Final Fantasy XV|Square Enix|Action RPG||Final Fantasy XV
 @2017
 Hollow Knight|Team Cherry|Metroidvania||Hollow Knight
 Divinity: Original Sin II|Larian Studios|RPG||Divinity: Original Sin II
@@ -696,10 +698,11 @@ Doki Doki Literature Club!|Team Salvato|Visual novel||Doki Doki Literature Club!
 Wolfenstein II: The New Colossus|MachineGames|FPS||Wolfenstein II: The New Colossus
 Total War: Warhammer II|Creative Assembly|Strategy||Total War: Warhammer II
 Rain World|Videocult|Survival platformer||Rain World
-Tacoma|The Fullbright Company|Adventure||Tacoma (video game)
+Sonic Mania|Christian Whitehead / PagodaWest Games / Headcannon|Platformer||Sonic Mania
 Resident Evil 7: Biohazard|Capcom|Survival horror||Resident Evil 7: Biohazard
 Ruiner|Reikon Games|Action||Ruiner (video game)
 Horizon Zero Dawn|Guerrilla Games|Action RPG||Horizon Zero Dawn
+Assassin's Creed Origins|Ubisoft Montreal|Action RPG||Assassin's Creed Origins
 @2018
 Celeste|Maddy Makes Games|Platformer||Celeste (video game)
 Into the Breach|Subset Games|Tactics||Into the Breach
@@ -724,6 +727,7 @@ Bad North|Plausible Concept|Strategy||Bad North
 God of War|Santa Monica Studio|Action adventure||God of War (2018 video game)
 Red Dead Redemption 2|Rockstar Studios|Action adventure||Red Dead Redemption 2
 Marvel's Spider-Man|Insomniac Games|Action adventure||Spider-Man (2018 video game)
+Forza Horizon 4|Playground Games|Racing||Forza Horizon 4
 @2019
 Disco Elysium|ZA/UM|RPG||Disco Elysium
 Slay the Spire|Mega Crit|Deckbuilder||Slay the Spire
@@ -746,6 +750,7 @@ Apex Legends|Respawn Entertainment|Battle royale||Apex Legends
 Ape Out|Gabe Cuzzillo|Action||Ape Out
 Star Wars Jedi: Fallen Order|Respawn Entertainment|Action adventure||Star Wars Jedi: Fallen Order
 Death Stranding|Kojima Productions|Action||Death Stranding
+Devil May Cry 5|Capcom|Action||Devil May Cry 5
 @2020
 Hades|Supergiant Games|Roguelite||Hades (video game)
 Half-Life: Alyx|Valve|VR FPS||Half-Life: Alyx
@@ -812,6 +817,7 @@ Immortality|Half Mermaid|Mystery||Immortality (video game)
 Mount & Blade II: Bannerlord|TaleWorlds|Action RPG||Mount & Blade II: Bannerlord
 Trombone Champ|Holy Wow Studios|Rhythm||Trombone Champ
 The Last of Us Part I|Naughty Dog|Action adventure||The Last of Us Part I
+God of War Ragnarök|Santa Monica Studio|Action adventure||God of War Ragnarök
 @2023
 Baldur's Gate 3|Larian Studios|RPG||Baldur's Gate 3
 Starfield|Bethesda Game Studios|RPG||Starfield (video game)
