@@ -850,10 +850,10 @@ Tactical Breach Wizards|Suspicious Developments|Tactics||Tactical Breach Wizards
 Mouthwashing|Wrong Organ|Horror||Mouthwashing
 Frostpunk 2|11 bit studios|City builder||Frostpunk 2
 Warhammer 40,000: Space Marine 2|Saber Interactive|Action||Warhammer 40,000: Space Marine 2
-S.T.A.L.K.E.R. 2: Heart of Chornobyl|GSC Game World|FPS||S.T.A.L.K.E.R. 2: Heart of Chornobyl
 Nine Sols|Red Candle Games|Metroidvania||Nine Sols
 Neva|Nomada Studio|Platformer||Neva (video game)
 The Plucky Squire|All Possible Futures|Adventure||The Plucky Squire
+Like a Dragon: Infinite Wealth|Ryu Ga Gotoku Studio|RPG||Like a Dragon: Infinite Wealth
 @2025
 Hades II|Supergiant Games|Roguelite||Hades II
 Escape from Tarkov|Battlestate Games|Extraction shooter||Escape from Tarkov
