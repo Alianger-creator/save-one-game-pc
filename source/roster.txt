@@ -571,6 +571,7 @@ Orcs Must Die!|Robot Entertainment|Tower defense||Orcs Must Die!
 Star Wars: The Old Republic|BioWare|MMORPG||Star Wars: The Old Republic
 Dead Space 2|Visceral Games|Survival horror||Dead Space 2
 Dark Souls|FromSoftware|Action RPG||Dark Souls (video game)
+L.A. Noire|Team Bondi|Action adventure||L.A. Noire
 @2012
 XCOM: Enemy Unknown|Firaxis Games|Tactics||XCOM: Enemy Unknown
 FTL: Faster Than Light|Subset Games|Roguelike||FTL: Faster Than Light
@@ -615,6 +616,7 @@ Saints Row IV|Volition|Action||Saints Row IV
 Outlast|Red Barrels|Horror||Outlast (video game)
 Arma 3|Bohemia Interactive|Military sim||Arma 3
 Battlefield 4|DICE|FPS||Battlefield 4
+Rayman Legends|Ubisoft Montpellier|Platformer||Rayman Legends
 @2014
 Divinity: Original Sin|Larian Studios|RPG||Divinity: Original Sin
 Shovel Knight|Yacht Club Games|Platformer||Shovel Knight
