@@ -435,6 +435,7 @@ Need for Speed: Most Wanted|EA Black Box|Racing||Need for Speed: Most Wanted (20
 TrackMania Sunrise|Nadeo|Racing||TrackMania Sunrise
 Tom Clancy's Splinter Cell: Chaos Theory|Ubisoft Montreal|Stealth||Tom Clancy's Splinter Cell: Chaos Theory
 Resident Evil 4|Capcom|Survival horror||Resident Evil 4
+Star Wars: Battlefront II|Pandemic Studios|Shooter||Star Wars: Battlefront II (2005 video game)
 @2006
 The Elder Scrolls IV: Oblivion|Bethesda Game Studios|RPG||The Elder Scrolls IV: Oblivion
 Half-Life 2: Episode One|Valve|FPS||Half-Life 2: Episode One
@@ -480,6 +481,7 @@ Peggle|PopCap Games|Puzzle||Peggle
 Europa Universalis III|Paradox Interactive|Grand strategy||Europa Universalis III
 Sam & Max Season One|Telltale Games|Adventure||Sam & Max Save the World
 Mass Effect|BioWare|RPG||Mass Effect (video game)
+Assassin's Creed|Ubisoft Montreal|Action adventure||Assassin's Creed (video game)
 @2008
 Left 4 Dead|Valve|FPS||Left 4 Dead
 Fallout 3|Bethesda Game Studios|RPG||Fallout 3
@@ -523,6 +525,7 @@ S.T.A.L.K.E.R.: Call of Pripyat|GSC Game World|FPS||S.T.A.L.K.E.R.: Call of Prip
 ArmA 2|Bohemia Interactive|Military sim||ARMA 2
 The Sims 3|The Sims Studio|Life sim||The Sims 3
 Bayonetta|PlatinumGames|Action||Bayonetta (video game)
+Assassin's Creed II|Ubisoft Montreal|Action adventure||Assassin's Creed II
 @2010
 StarCraft II: Wings of Liberty|Blizzard Entertainment|RTS||StarCraft II: Wings of Liberty
 Mass Effect 2|BioWare|RPG||Mass Effect 2
@@ -566,7 +569,7 @@ SpaceChem|Zachtronics|Puzzle||SpaceChem
 To the Moon|Freebird Games|Adventure||To the Moon
 Orcs Must Die!|Robot Entertainment|Tower defense||Orcs Must Die!
 Star Wars: The Old Republic|BioWare|MMORPG||Star Wars: The Old Republic
-Serious Sam 3: BFE|Croteam|FPS||Serious Sam 3: BFE
+Dead Space 2|Visceral Games|Survival horror||Dead Space 2
 Dark Souls|FromSoftware|Action RPG||Dark Souls (video game)
 @2012
 XCOM: Enemy Unknown|Firaxis Games|Tactics||XCOM: Enemy Unknown
